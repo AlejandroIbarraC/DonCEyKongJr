@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bberak/react-native-donkey-kong/master/assets/icons/kong.png" alt="React Native Donkey Kong" height="120" />
+  <img src="https://bit.ly/2kl4OUY">
 </p>
 
 # CE-3104 Donkey Kong Jr 
@@ -17,6 +17,20 @@ Donkey Kong Jr remake using C and Java 🙉 for linux client and linux|windows|m
 ## Description
 
 ## Getting Started
+<p align=justify>Prerequisites:You must have <a href="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git">Git</a>
+ installed on your console.</p>
+
+1. On GitHub, go to the main page of the [repository]().
+2. Under the name of the repository, click Clone or download.
+3. In the Clone with HTTPs section, click to copy the repository cloning URL.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type 'git clone', and then paste the URL that you copied in Step 2.
+
+   ```$ git clone https://github.com/estalvgs1999/CE3104-Donkey-Kong-Jr.git```
+
+7. Press Enter. Your local clone will be created for [CE3104-Donkey-Kong-Jr]().
+8. Now you can access the examples contained in this repository; but remember to be aware because I am constantly uploading new material
 
 ## Running the Game -
 
@@ -40,15 +54,17 @@ react-native run-ios
 ## Made With 🍌🍌🍌
 
 ## Developer Team
+* **Esteban Alvarado** - *Computer Engineering Student* - [@estalvgs1999](https://github.com/estalvgs1999)
+* **Alejandro Ibarra** - *Computer Engineering Student* - [@AlejandroIbarraC](https://github.com/AlejandroIbarraC)
+* **Jesús Sandoval** - *Computer Engineering Student* - [@shuzz22260427](https://github.com/shuzz22260427)
+
 
 ## About us
 
 ## License
-
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md]() file for details
 ***
 
 <p align="center">
-  <a href="https://neap.co/">
-    <img src="https://neap.co/img/neap_black_small_logo.png" alt="Neap Pty Ltd" title="Neap" height="50"/>
-  </a>
+  <img src="https://raw.githubusercontent.com/bberak/react-native-donkey-kong/master/assets/icons/kong.png" alt="React Native Donkey Kong" height="60" /> 
 </p>
