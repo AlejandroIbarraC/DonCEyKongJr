@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://bit.ly/2miWw0B" height=200 >
+  <img src="https://bit.ly/2kLuN8e" height=100 >
 </p>
 
 # CE-3104 Donkey Kong Jr 
