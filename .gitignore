@@ -85,6 +85,7 @@ dkms.conf
 .idea/modules.xml
 .idea/*.iml
 .idea/modules
+.idea/workspace
 *.iml
 *.ipr
 
