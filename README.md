@@ -66,5 +66,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ***
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bberak/react-native-donkey-kong/master/assets/icons/kong.png" alt="React Native Donkey Kong" height="60" /> 
+  <img src="https://raw.githubusercontent.com/bberak/react-native-donkey-kong/master/assets/icons/kong.png" alt="React Native Donkey Kong" height="80" /> 
 </p>
