@@ -86,8 +86,8 @@ dkms.conf
 .idea/*.iml
 .idea/modules
 .idea/workspace
-*.iml
-*.ipr
+#*.iml
+#*.ipr
 
 # CMake
 cmake-build-*/
