@@ -3,4 +3,6 @@ project(Client)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Client main.c)
+add_executable(Client main.c src/sockets/clientSocket.h
+        src/sockets/clientSocket.c src/json/jsonSerializer.h src/json/jsonSerializer.c src/ui/donkeyUI.c src/ui/donkeyUI.h)
+
