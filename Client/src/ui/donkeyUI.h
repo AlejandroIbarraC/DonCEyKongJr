@@ -1,3 +1,12 @@
+/* File: donkeyUI.h
+ * Author: Sahid Rojas & Esteban Alvarado
+ * Description: This library provides a startup window that allows you to
+ *              connect through sockets to a server.
+ *
+ * Version: 2.4 (2019)
+ * Instituto Tecnologico de Costa Rica
+ *---------------------------------------------------------------------------*/
+
 #ifndef CLIENT_DONKEYUI_H
 #define CLIENT_DONKEYUI_H
 
