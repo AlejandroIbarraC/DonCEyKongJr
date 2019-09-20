@@ -2,9 +2,10 @@
 // Created by Jesus on 19/9/2019.
 //
 #include "FruitList.h"
-/*void insertFirst(struct fruit* fruit) {
+
+void insertFirst(struct fruit* fruit) {
     //create a link
-    struct cocodrileNode *link = (struct cocodrileNode*) malloc(sizeof(struct cocodrileNode));
+    struct fruitNode *link = (struct fruitNode*) malloc(sizeof(struct fruitNode));
 
     link->fruit = fruit;
 
@@ -16,10 +17,10 @@
 }
 
 //find a link with given key
-struct fruit* find() {
+struct fruitNode* find(int key) {
 
     //start from the first link
-    struct fruit* current = head;
+    struct fruitNode* current = head;
 
     //if list is empty
     if(head == NULL) {
@@ -27,7 +28,7 @@ struct fruit* find() {
     }
 
     //navigate through list
-    while(current->key != key) {
+    while(current->fruit->key != key) {
 
         //if it is last fruit
         if(current->next == NULL) {
@@ -45,8 +46,8 @@ struct fruit* find() {
 struct fruit* delete(int key) {
 
     //start from the first link
-    struct fruit* current = head;
-    struct fruit* previous = NULL;
+    struct fruitNode* current = head;
+    struct fruitNode* previous = NULL;
 
     //if list is empty
     if(head == NULL) {
@@ -54,7 +55,7 @@ struct fruit* delete(int key) {
     }
 
     //navigate through list
-    while(current->key != key) {
+    while(current->fruit->key != key) {
 
         //if it is last fruit
         if(current->next == NULL) {
@@ -66,7 +67,7 @@ struct fruit* delete(int key) {
             current = current->next;
         }
     }
-
+struct fruit* delete(int key)
     //found a match, update the link
     if(current == head) {
         //change first to point to next link
@@ -81,4 +82,4 @@ struct fruit* delete(int key) {
 
 struct fruitNode* returnHead() {
     return head;
-}*/
+}

@@ -5,11 +5,11 @@
 //insert link at the first location
 #include "CocodrileList.h"
 
-/*void insertFirst(struct cocodrile* cocodrile) {
+void insertFirst(struct cocodrile* cocodrile) {
     //create a link
     struct cocodrileNode *link = (struct cocodrileNode*) malloc(sizeof(struct cocodrileNode));
 
-    link->fruit = cocodrile;
+    link->cocodrile = cocodrile;
 
     //point it to old first cocodrileNode
     link->next = head;
@@ -19,10 +19,10 @@
 }
 
 //find a link with given key
-struct fruit* find(fruit key) {
+struct cocodrileNode* find(int key) {
 
     //start from the first link
-    struct fruit* current = head;
+    struct cocodrileNode *current = head;
 
     //if list is empty
     if(head == NULL) {
@@ -30,7 +30,7 @@ struct fruit* find(fruit key) {
     }
 
     //navigate through list
-    while(current->key != key) {
+    while(current->cocodrile->key != key) {
 
         //if it is last fruit
         if(current->next == NULL) {
@@ -45,11 +45,11 @@ struct fruit* find(fruit key) {
     return current;
 }
 
-struct fruit* delete(int key) {
+struct cocodrile* delete(int key) {
 
     //start from the first link
-    struct fruit* current = head;
-    struct fruit* previous = NULL;
+    struct cocodrileNode* current = head;
+    struct cocodrileNode* previous = NULL;
 
     //if list is empty
     if(head == NULL) {
@@ -57,7 +57,7 @@ struct fruit* delete(int key) {
     }
 
     //navigate through list
-    while(current->key != key) {
+    while(current->cocodrile->key != key) {
 
         //if it is last fruit
         if(current->next == NULL) {
@@ -82,6 +82,7 @@ struct fruit* delete(int key) {
     return current;
 }
 
+
 struct cocodrileNode* returnHead(){
     return head;
-}*/
+}

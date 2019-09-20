@@ -80,7 +80,7 @@ int supports_full_hd(const char * const monitor)
 }
 
 void printCoco(struct cocodrile k){
-    printf("CROCODRILE \n*iD: %d \n*iPos:%d \n*jPos:%d \n*%d \n*%d \n*%d \n*%d \n*%d\n",k.iD,k.iPos,k.jPos,k.onScreen,k.cocoSpeed,k.onVine,k.onField,k.whichCoco);
+    printf("CROCODRILE \n*iD: %d \n*iPos:%d \n*jPos:%d \n*%d \n*%d \n*%d \n*%d \n*%d\n*%d\n",k.iD,k.iPos,k.jPos,k.onScreen,k.cocoSpeed,k.onVine,k.onField,k.whichCoco,k.mouth);
 }
 
 void printFruit(struct fruit f){

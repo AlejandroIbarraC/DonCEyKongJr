@@ -9,7 +9,7 @@ struct dk{
     int iD;
     int jPos;
     int iPos;
-    int onVyne;
+    int onVine;
     int onField;
     int onScreen;
     int viewR;

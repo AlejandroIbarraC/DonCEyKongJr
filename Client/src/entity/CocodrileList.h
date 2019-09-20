@@ -8,16 +8,41 @@
 #include <string.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include "CocodrileLogic.h"
 
 static struct cocodrileNode *head = NULL;
-static struct cocodrileNode *current = NULL;
 
 struct cocodrileNode {
-    struct cocodrile* fruit;
+
+    struct cocodrile *cocodrile;
     struct cocodrileNode *next;
+
 };
 
+/**
+ *
+ * @param fruit
+ */
 void insertFirst(struct cocodrile* fruit);
+
+/**
+ *
+ * @param key
+ * @return
+ */
+struct cocodrile* delete(int key);
+
+/**
+ *
+ * @param key
+ * @return
+ */
+struct cocodrileNode* find(int key);
+
+/**
+ *
+ * @return
+ */
 struct cocodrileNode* returnHead();
 
 

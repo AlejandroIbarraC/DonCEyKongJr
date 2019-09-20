@@ -5,10 +5,13 @@
 #define KEYDONCE_COCODRILELOGIC_H
 
 struct cocodrile{
+
+    int key;
+
     int iD;
     int jPos;
     int iPos;
-    int onVyne;
+    int onVine;
     int onField;
     int whichCoco; //O equal to blue Coco and 1 equal to red Coco//
     int cocoSpeed;
@@ -21,6 +24,5 @@ struct cocodrile{
 };
 
 void cocodrileMovement();
-void cocodrileMovementeAux();
 
 #endif //KEYDONCE_COCODRILELOGIC_H

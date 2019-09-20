@@ -12,7 +12,7 @@ void dkMovement(){
     int viewL;
     int viewD;
     int viewU;
-    int onVyne;
+    int onVine;
     int onField;
     static int gameMatrix[24][16];
 }

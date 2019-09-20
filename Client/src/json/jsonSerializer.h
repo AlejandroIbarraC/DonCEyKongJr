@@ -3,8 +3,8 @@
 
 // Libraries
 #include "../cjson/cJSON.h"
-#include "../entity/cocodrile.h"
-#include "../entity/fruit.h"
+#include "../entity/CocodrileLogic.h"
+#include "../entity/FruitLogic.h"
 #include <stdio.h>
 
 #define ROWS 24

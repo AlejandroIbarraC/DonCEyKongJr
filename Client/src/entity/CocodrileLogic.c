@@ -17,18 +17,18 @@ void cocodrileMovement(){
     int viewL;
     int viewD;
     int viewU;
-    int onVyne;
+    int onVine;
     int onField;
     static int gameMatrix[24][16];
     while (tmp != NULL){
-        cocodrile = tmp->fruit;
+        cocodrile = tmp->cocodrile;
         iD = cocodrile->iD;
         iPos = cocodrile->iPos;
         jPos = cocodrile->jPos;
         cocoSpeed = cocodrile->cocoSpeed;
         whichCoco = cocodrile->whichCoco;
         onScreen = cocodrile->onScreen;
-        onVyne = cocodrile->onVyne;
+        onVine = cocodrile->onVine;
         onField = cocodrile->onField;
         viewR = cocodrile->viewR;
         viewL = cocodrile->viewL;
@@ -44,7 +44,7 @@ void cocodrileMovement(){
             viewU = 0;
 
             onField = 1;
-            onVyne = 0;
+            onVine = 0;
         }
         else if(gameMatrix[iPos][jPos] == 2){
             if(whichCoco == 0){
@@ -60,7 +60,7 @@ void cocodrileMovement(){
                     viewD = 1;
                     viewU = 0;
                     onField = 1;
-                    onVyne = 0;
+                    onVine = 0;
                 }
             }
             else{
@@ -72,7 +72,7 @@ void cocodrileMovement(){
                     viewD = 0;
                     viewU = 1;
                     onField = 0;
-                    onVyne = 1;
+                    onVine = 1;
                 }
                 else{
                     gameMatrix[iPos+1][jPos] = gameMatrix[iPos][jPos];
@@ -82,7 +82,7 @@ void cocodrileMovement(){
                     viewD = 1;
                     viewU = 0;
                     onField = 0;
-                    onVyne = 1;
+                    onVine = 1;
                 }
             }
         }
@@ -94,7 +94,7 @@ void cocodrileMovement(){
             viewD = 0;
             viewU = 0;
             onField = 1;
-            onVyne = 0;
+            onVine = 0;
         }
     }
 }

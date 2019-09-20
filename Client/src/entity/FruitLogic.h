@@ -5,21 +5,17 @@
 #ifndef KEYDONCE_FRUITLOGIC_H
 #define KEYDONCE_FRUITLOGIC_H
 struct fruit{
+
+    int key;
     int iD;
     int jPos;
     int iPos;
     int whichFruit;
-    int onVyne;
+    int onVine;
     int onField;
     int onScreen;
 };
-voidFruitState();
 
-
-
-
-
-
-
+void FruitState();
 
 #endif //KEYDONCE_FRUITLOGIC_H
