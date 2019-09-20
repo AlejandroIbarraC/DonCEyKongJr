@@ -28,5 +28,5 @@ add_executable(Client main.c
                 src/entity/FruitList.c
                 src/entity/FruitLogic.h
                 src/entity/FruitLogic.c
-        )
+        src/entity/game.c src/entity/game.h)
 
