@@ -1,12 +1,13 @@
 //
 // Created by Jesus on 19/9/2019.
 //
-#include "CocodrileLogic.h"
-#include "CocodrileList.h"
+#include "CrocodrileLogic.h"
+#include "CrocodrileList.h"
 
-void cocodrileMovement(){
-    struct cocodrileNode* tmp = returnHead();
-    struct cocodrile* cocodrile;
+void crocodrileMovement(){
+
+    struct crocodrileNode* tmp = returnHead_crocodrile();
+    struct crocodrile* crocodrile;
     int iD = 1;
     int iPos = 0;
     int jPos = 0;
@@ -19,21 +20,23 @@ void cocodrileMovement(){
     int viewU;
     int onVine;
     int onField;
+
     static int gameMatrix[24][16];
+
     while (tmp != NULL){
-        cocodrile = tmp->cocodrile;
-        iD = cocodrile->iD;
-        iPos = cocodrile->iPos;
-        jPos = cocodrile->jPos;
-        cocoSpeed = cocodrile->cocoSpeed;
-        whichCoco = cocodrile->whichCoco;
-        onScreen = cocodrile->onScreen;
-        onVine = cocodrile->onVine;
-        onField = cocodrile->onField;
-        viewR = cocodrile->viewR;
-        viewL = cocodrile->viewL;
-        viewD = cocodrile->viewD;
-        viewU = cocodrile->viewU;
+        crocodrile = tmp->crocodrile;
+        iD = crocodrile->iD;
+        iPos = crocodrile->iPos;
+        jPos = crocodrile->jPos;
+        cocoSpeed = crocodrile->crocSpeed;
+        whichCoco = crocodrile->whichCroc;
+        onScreen = crocodrile->onScreen;
+        onVine = crocodrile->onVine;
+        onField = crocodrile->onField;
+        viewR = crocodrile->viewR;
+        viewL = crocodrile->viewL;
+        viewD = crocodrile->viewD;
+        viewU = crocodrile->viewU;
         if(gameMatrix[iPos][jPos+1] != 0 && gameMatrix[iPos][jPos+1] != 2){
             gameMatrix[iPos][jPos+1] = gameMatrix[iPos][jPos];
             gameMatrix[iPos][jPos] = 0;

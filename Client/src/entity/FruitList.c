@@ -3,7 +3,7 @@
 //
 #include "FruitList.h"
 
-void insertFirst(struct fruit* fruit) {
+void insertFirst_Fruit(struct fruit *fruit) {
     //create a link
     struct fruitNode *link = (struct fruitNode*) malloc(sizeof(struct fruitNode));
 
@@ -16,8 +16,8 @@ void insertFirst(struct fruit* fruit) {
     head = link;
 }
 
-//find a link with given key
-struct fruitNode* find(int key) {
+//find_Fruit a link with given key
+struct fruitNode* find_Fruit(int key) {
 
     //start from the first link
     struct fruitNode* current = head;
@@ -43,7 +43,7 @@ struct fruitNode* find(int key) {
     return current;
 }
 
-struct fruit* delete(int key) {
+struct fruit* delete_Fruit(int key) {
 
     //start from the first link
     struct fruitNode* current = head;
@@ -67,19 +67,10 @@ struct fruit* delete(int key) {
             current = current->next;
         }
     }
-struct fruit* delete(int key)
-    //found a match, update the link
-    if(current == head) {
-        //change first to point to next link
-        head = head->next;
-    } else {
-        //bypass the current link
-        previous->next = current->next;
-    }
 
-    return current;
+    return current->fruit;
 }
 
-struct fruitNode* returnHead() {
+struct fruitNode* returnHead_Fruit() {
     return head;
 }

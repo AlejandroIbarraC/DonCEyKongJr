@@ -3,13 +3,13 @@
 //
 
 //insert link at the first location
-#include "CocodrileList.h"
+#include "CrocodrileList.h"
 
-void insertFirst(struct cocodrile* cocodrile) {
+void insertFirstC(struct crocodrile* crocodrile) {
     //create a link
-    struct cocodrileNode *link = (struct cocodrileNode*) malloc(sizeof(struct cocodrileNode));
+    struct crocodrileNode *link = (struct cocodrileNode*) malloc(sizeof(struct crocodrileNode));
 
-    link->cocodrile = cocodrile;
+    link->crocodrile = crocodrile;
 
     //point it to old first cocodrileNode
     link->next = head;
@@ -18,11 +18,11 @@ void insertFirst(struct cocodrile* cocodrile) {
     head = link;
 }
 
-//find a link with given key
-struct cocodrileNode* find(int key) {
+//find_Fruit a link with given key
+struct crocodrileNode* findC(int key) {
 
     //start from the first link
-    struct cocodrileNode *current = head;
+    struct crocodrileNode *current = head;
 
     //if list is empty
     if(head == NULL) {
@@ -30,7 +30,7 @@ struct cocodrileNode* find(int key) {
     }
 
     //navigate through list
-    while(current->cocodrile->key != key) {
+    while(current->crocodrile->key != key) {
 
         //if it is last fruit
         if(current->next == NULL) {
@@ -45,11 +45,11 @@ struct cocodrileNode* find(int key) {
     return current;
 }
 
-struct cocodrile* delete(int key) {
+struct crocodrile* deleteC(int key) {
 
     //start from the first link
-    struct cocodrileNode* current = head;
-    struct cocodrileNode* previous = NULL;
+    struct crocodrileNode* current = head;
+    struct crocodrileNode* previous = NULL;
 
     //if list is empty
     if(head == NULL) {
@@ -57,7 +57,7 @@ struct cocodrile* delete(int key) {
     }
 
     //navigate through list
-    while(current->cocodrile->key != key) {
+    while(current->crocodrile->key != key) {
 
         //if it is last fruit
         if(current->next == NULL) {
@@ -79,10 +79,10 @@ struct cocodrile* delete(int key) {
         previous->next = current->next;
     }
 
-    return current;
+    return current->crocodrile;
 }
 
 
-struct cocodrileNode* returnHead(){
+struct crocodrileNode* returnHead_crocodrile(){
     return head;
 }

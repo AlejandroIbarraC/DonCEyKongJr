@@ -11,18 +11,23 @@
 #include <stdbool.h>
 #include "FruitLogic.h"
 
-static struct fruitNode *head = NULL;
-static struct fruitNode *current = NULL;
-
+//
 struct fruitNode{
     struct fruit* fruit;
     struct fruitNode* next;
 };
 
-void insertFirst(struct fruit* fruit);
-struct fruitNode* find(int key);
-struct fruit* delete(int key);
-struct fruitNode* returnHead();
+// Globals
+static struct fruitNode *head = NULL;
+static struct fruitNode *current = NULL;
+
+
+
+
+void insertFirst_Fruit(struct fruit *fruit);
+struct fruitNode* find_Fruit(int key);
+struct fruit* delete_Fruit(int key);
+struct fruitNode* returnHead_Fruit();
 
 
 

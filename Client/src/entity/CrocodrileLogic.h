@@ -4,7 +4,7 @@
 #ifndef KEYDONCE_COCODRILELOGIC_H
 #define KEYDONCE_COCODRILELOGIC_H
 
-struct cocodrile{
+struct crocodrile{
 
     int key;
 
@@ -13,8 +13,8 @@ struct cocodrile{
     int iPos;
     int onVine;
     int onField;
-    int whichCoco; //O equal to blue Coco and 1 equal to red Coco//
-    int cocoSpeed;
+    int whichCroc; //O equal to blue Coco and 1 equal to red Coco//
+    int crocSpeed;
     int onScreen;
     int mouth;
     int viewR;
@@ -23,6 +23,6 @@ struct cocodrile{
     int viewU;
 };
 
-void cocodrileMovement();
+void crocodrileMovement();
 
 #endif //KEYDONCE_COCODRILELOGIC_H

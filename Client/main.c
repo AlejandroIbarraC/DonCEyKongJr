@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "src/json/jsonSerializer.h"
+#include "src/sockets/clientSocket.h"
+#include "src/ui/donkeyUI.h"
 
 /*int main(){
     int matrix[24][16] = { {7, 1, 8, 4, 3, 5, 9, 4, 7, 4, 0, 2, 1, 5, 0, 9},
@@ -79,47 +81,26 @@ int supports_full_hd(const char * const monitor)
     return status;
 }
 
-void printCoco(struct cocodrile k){
-    printf("CROCODRILE \n*iD: %d \n*iPos:%d \n*jPos:%d \n*%d \n*%d \n*%d \n*%d \n*%d\n*%d\n",k.iD,k.iPos,k.jPos,k.onScreen,k.cocoSpeed,k.onVine,k.onField,k.whichCoco,k.mouth);
+void printCoco(struct crocodrile k){
+    printf("CROCODRILE \n*iD: %d \n*iPos:%d \n*jPos:%d \n*%d \n*%d \n*%d \n*%d \n*%d\n*%d\n",k.iD,k.iPos,k.jPos,k.onScreen,k.crocSpeed,k.onVine,k.onField,k.whichCroc,k.mouth);
 }
 
 void printFruit(struct fruit f){
     printf("FRUIT \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d \n",f.iD,f.iPos,f.jPos,f.onScreen,f.onVine,f.onField,f.whichFruit);
 }
 
-int main(){
-    char *json1 = "{\n"
-                 "        \"iD\":1,\n"
-                 "        \"iPos\":2,\n"
-                 "        \"jPos\":3,\n"
-                 "        \"onScreen\":4,\n"
-                 "        \"cocoSpeed\":5,\n"
-                 "        \"onVine\":6,\n"
-                 "        \"onField\":7,\n"
-                 "        \"whichCoco\":8,\n"
-                 "        \"mouth\":9,\n"
-                 "        \"viewU\":10,\n"
-                 "        \"viewD\":11,\n"
-                 "        \"viewR\":12,\n"
-                 "        \"viewL\":13\n"
-                 "    }";
+int main(int argc, char *argv[]){
 
-    char *json2 = "{\n"
-                  "        \"iD\":0,\n"
-                  "        \"iPos\":2,\n"
-                  "        \"jPos\":3,\n"
-                  "        \"onScreen\":4,\n"
-                  "        \"onVine\":6,\n"
-                  "        \"onField\":7,\n"
-                  "        \"whichFruit\":8\n"
-                  "    }";
+    /*char *json1 = "{\"iD\":1,\"iPos\":234,\"jPos\":567,\"onScreen\":1,\"onField\":99,\"onVine\":0,\"crocSpeed\":22,\"mouth\":2,\"whichCroc\":null,\"viewU\":90,\"viewD\":8,\"viewR\":56,\"viewL\":12}";
     if(isCoco(json1)){
-        struct cocodrile k = deserialize_Coco(json1);
+        struct crocodrile k = deserialize_Coco(json1);
         printCoco(k);
     }else {
         struct fruit f = deserialize_Fruit(json1);
         printFruit(f);
-    }
+    }*/
+
+    init_Donkey(argc,argv);
 
     return 0;
 }

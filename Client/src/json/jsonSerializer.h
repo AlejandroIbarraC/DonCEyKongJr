@@ -3,7 +3,7 @@
 
 // Libraries
 #include "../cjson/cJSON.h"
-#include "../entity/CocodrileLogic.h"
+#include "../entity/CrocodrileLogic.h"
 #include "../entity/FruitLogic.h"
 #include <stdio.h>
 
@@ -29,7 +29,7 @@ int isCoco(const char *json);
  * @param json : Incoming data Kremlin from server
  * @return : Kremlin instance ptr
  */
-struct cocodrile deserialize_Coco(const char *json);
+struct crocodrile deserialize_Coco(const char *json);
 
 /**
  * Function that indicates if the json enters corresponds to a crocodile

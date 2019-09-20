@@ -92,17 +92,17 @@ int isFruit(const char *json){
 }
 
 /*
- *  cocodrile JSON format: [iD code: 1]
+ *  crocodrile JSON format: [iD code: 1]
  *
     {
         "iD":1,
         "iPos":2,
         "jPos":3,
         "onScreen":4,
-        "cocoSpeed":5,
+        "crocSpeed":5,
         "onVine":6,
         "onField":7,
-        "whichCoco":8,
+        "whichCroc":8,
         "mouth":9,
         "viewU":10,
         "viewD":11,
@@ -110,8 +110,8 @@ int isFruit(const char *json){
         "viewL":13
     }
  */
-struct cocodrile deserialize_Coco(const char *json){
-    struct cocodrile _coco = { .iD = 0};
+struct crocodrile deserialize_Coco(const char *json){
+    struct crocodrile _coco = { .iD = 0};
     // cJSON data tokens
     cJSON *iD,  *posI, *posJ;
     cJSON *onScreen, *onField;
@@ -151,9 +151,9 @@ struct cocodrile deserialize_Coco(const char *json){
         _coco.onScreen = onScreen->valueint;
     }
 
-    cocoSpeed = cJSON_GetObjectItemCaseSensitive(coco_Json,"cocoSpeed");
+    cocoSpeed = cJSON_GetObjectItemCaseSensitive(coco_Json,"crocSpeed");
     if(cJSON_IsNumber(cocoSpeed)){
-        _coco.cocoSpeed = cocoSpeed->valueint;
+        _coco.crocSpeed = cocoSpeed->valueint;
     }
 
     inVine = cJSON_GetObjectItemCaseSensitive(coco_Json,"onVine");
@@ -166,9 +166,9 @@ struct cocodrile deserialize_Coco(const char *json){
         _coco.onField = onField->valueint;
     }
 
-    whichCoco = cJSON_GetObjectItemCaseSensitive(coco_Json,"whichCoco");
+    whichCoco = cJSON_GetObjectItemCaseSensitive(coco_Json,"whichCroc");
     if(cJSON_IsNumber(whichCoco)){
-        _coco.whichCoco = whichCoco->valueint;
+        _coco.whichCroc = whichCoco->valueint;
     }
 
     mouth = cJSON_GetObjectItemCaseSensitive(coco_Json,"mouth");
@@ -202,7 +202,7 @@ struct cocodrile deserialize_Coco(const char *json){
 }
 
 /*
- *  cocodrile JSON format: [iD code: 1]
+ *  crocodrile JSON format: [iD code: 1]
  *
     {
         "iD":0,

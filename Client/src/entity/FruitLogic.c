@@ -6,7 +6,7 @@
 #include "FruitList.h"
 
 void fruitState() {
-    struct fruitNode* tmp = returnHead();
+    struct fruitNode* tmp = returnHead_Fruit();
     struct fruit* fruit;
     int iD = 2;
     int iPos = 0;

@@ -3,6 +3,13 @@ project(Client)
 
 set(CMAKE_CXX_STANDARD 14)
 
+FIND_PACKAGE(PkgConfig REQUIRED)
+PKG_CHECK_MODULES(GTK3 REQUIRED gtk+-3.0)
+INCLUDE_DIRECTORIES(${GTK3_INCLUDE_DIRS})
+LINK_DIRECTORIES(${GTK3_LIBRARY_DIRS})
+
+ADD_DEFINITIONS(${GTK3_CFLAGS_OTHER})
+
 add_executable(Client main.c
                 src/sockets/clientSocket.h
                 src/sockets/clientSocket.c
@@ -16,10 +23,10 @@ add_executable(Client main.c
                 src/cjson/cJSON.h
                 src/cjson/cJSON.c
 
-                src/entity/CocodrileList.h
-                src/entity/CocodrileList.c
-                src/entity/CocodrileLogic.h
-                src/entity/CocodrileLogic.c
+        src/entity/CrocodrileList.h
+        src/entity/CrocodrileList.c
+        src/entity/CrocodrileLogic.h
+        src/entity/CrocodrileLogic.c
 
                 src/entity/DKLogic.h
                 src/entity/DKLogic.c
@@ -30,3 +37,4 @@ add_executable(Client main.c
                 src/entity/FruitLogic.c
         src/entity/game.c src/entity/game.h)
 
+TARGET_LINK_LIBRARIES(Client ${GTK3_LIBRARIES})
