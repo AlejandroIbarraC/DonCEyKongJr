@@ -10,5 +10,5 @@ add_executable(Client main.c src/sockets/clientSocket.h
                 src/ui/donkeyUI.c
                 src/ui/donkeyUI.h
                 src/cjson/cJSON.h
-                src/cjson/cJSON.c)
+                src/cjson/cJSON.c src/entity/Kremlin.h)
 

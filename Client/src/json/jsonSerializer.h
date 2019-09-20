@@ -3,6 +3,7 @@
 
 // Libraries
 #include "../cjson/cJSON.h"
+#include "../entity/Kremlin.h"
 #include <stdio.h>
 
 #define ROWS 24
@@ -15,5 +16,11 @@
  */
 char* serialize_Matrix(int matrix[ROWS][COLS]);
 
+/**
+ * @brief Function that receives an json char* and returns an Kremlin instance
+ * @param json : Incoming data Kremlin from server
+ * @return : Kremlin instance ptr
+ */
+struct Kremlin deserialize_Kremlin(const char *json);
 
 #endif //CLIENT_JSONSERIALIZER_H
