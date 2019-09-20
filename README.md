@@ -20,7 +20,7 @@ Donkey Kong Jr remake using C and Java 🙉 for linux client and linux|windows|m
 <p align=justify>Prerequisites:You must have <a href="https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git">Git</a>
  installed on your console.</p>
 
-1. On GitHub, go to the main page of the [repository]().
+1. On GitHub, go to the ui.main page of the [repository]().
 2. Under the name of the repository, click Clone or download.
 3. In the Clone with HTTPs section, click to copy the repository cloning URL.
 4. Open Git Bash.
@@ -32,7 +32,7 @@ Donkey Kong Jr remake using C and Java 🙉 for linux client and linux|windows|m
 7. Press Enter. Your local clone will be created for [CE3104-Donkey-Kong-Jr]().
 8. Now you can access the examples contained in this repository; but remember to be aware because I am constantly uploading new material
 
-## Running the Game -
+## Running the primaryMatrix.Game -
 
 ```
 git clone https://github.com/bberak/react-native-donkey-kong.git
