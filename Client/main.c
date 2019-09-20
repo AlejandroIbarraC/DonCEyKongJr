@@ -79,23 +79,47 @@ int supports_full_hd(const char * const monitor)
     return status;
 }
 
-void printKremlin(struct Kremlin k){
-    printf("KREMLIN \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d",k.id,k.posI,k.posJ,k.onScreen,k.cocoSpeed,k.inVine,k.onField,k.wishCoco);
+void printCoco(struct cocodrile k){
+    printf("CROCODRILE \n*iD: %d \n*iPos:%d \n*jPos:%d \n*%d \n*%d \n*%d \n*%d \n*%d\n",k.iD,k.iPos,k.jPos,k.onScreen,k.cocoSpeed,k.onVine,k.onField,k.whichCoco);
+}
+
+void printFruit(struct fruit f){
+    printf("FRUIT \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d \n",f.iD,f.iPos,f.jPos,f.onScreen,f.onVine,f.onField,f.whichFruit);
 }
 
 int main(){
-    char *json = "  {\n"
-                 "        \"id\":1,\n"
-                 "        \"posI\":2,\n"
-                 "        \"posJ\":3,\n"
+    char *json1 = "{\n"
+                 "        \"iD\":1,\n"
+                 "        \"iPos\":2,\n"
+                 "        \"jPos\":3,\n"
                  "        \"onScreen\":4,\n"
                  "        \"cocoSpeed\":5,\n"
-                 "        \"inVine\":6,\n"
+                 "        \"onVine\":6,\n"
                  "        \"onField\":7,\n"
-                 "        \"wishCoco\":8\n"
+                 "        \"whichCoco\":8,\n"
+                 "        \"mouth\":9,\n"
+                 "        \"viewU\":10,\n"
+                 "        \"viewD\":11,\n"
+                 "        \"viewR\":12,\n"
+                 "        \"viewL\":13\n"
                  "    }";
 
-    struct Kremlin k = deserialize_Kremlin(json);
-    printKremlin(k);
+    char *json2 = "{\n"
+                  "        \"iD\":0,\n"
+                  "        \"iPos\":2,\n"
+                  "        \"jPos\":3,\n"
+                  "        \"onScreen\":4,\n"
+                  "        \"onVine\":6,\n"
+                  "        \"onField\":7,\n"
+                  "        \"whichFruit\":8\n"
+                  "    }";
+    if(isCoco(json1)){
+        struct cocodrile k = deserialize_Coco(json1);
+        printCoco(k);
+    }else {
+        struct fruit f = deserialize_Fruit(json1);
+        printFruit(f);
+    }
+
     return 0;
 }

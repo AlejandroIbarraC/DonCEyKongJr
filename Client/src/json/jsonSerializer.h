@@ -3,7 +3,8 @@
 
 // Libraries
 #include "../cjson/cJSON.h"
-#include "../entity/Kremlin.h"
+#include "../entity/cocodrile.h"
+#include "../entity/fruit.h"
 #include <stdio.h>
 
 #define ROWS 24
@@ -17,10 +18,31 @@
 char* serialize_Matrix(int matrix[ROWS][COLS]);
 
 /**
+ * Function that indicates if the json enters corresponds to a crocodile
+ * @param json: Incoming Data
+ * @return : 1 if is an coco json or 0 if it is not
+ */
+int isCoco(const char *json);
+
+/**
  * @brief Function that receives an json char* and returns an Kremlin instance
  * @param json : Incoming data Kremlin from server
  * @return : Kremlin instance ptr
  */
-struct Kremlin deserialize_Kremlin(const char *json);
+struct cocodrile deserialize_Coco(const char *json);
+
+/**
+ * Function that indicates if the json enters corresponds to a crocodile
+ * @param json: Incoming Data
+ * @return : 1 if is an coco json or 0 if it is not
+ */
+int isFruit(const char *json);
+
+/**
+ * @brief Function that receives an json char* and returns an Kremlin instance
+ * @param json : Incoming data Kremlin from server
+ * @return : Kremlin instance ptr
+ */
+struct fruit deserialize_Fruit(const char *json);
 
 #endif //CLIENT_JSONSERIALIZER_H

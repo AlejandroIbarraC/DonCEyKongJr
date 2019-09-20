@@ -8,15 +8,26 @@
 
 #include <stdio.h>
 
-struct Kremlin{
-    int id;
-    int posI;
-    int posJ;
+struct cocodrile{
+
+    int iD;
+
+    int iPos;
+    int jPos;
+
     int onScreen;
     int cocoSpeed;
-    int inVine;
+    int whichCoco;
+
+    int onVine;
     int onField;
-    int wishCoco;
+
+    int mouth;
+    int viewR;
+    int viewL;
+    int viewD;
+    int viewU;
+
 };
 
 
