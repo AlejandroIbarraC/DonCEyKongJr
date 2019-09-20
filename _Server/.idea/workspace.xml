@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d95e4a38-c899-4c80-83d8-fb936543d351" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/entity/CocodrileList.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/entity/CrocodrileList.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/entity/CocodrileList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/entity/CrocodrileList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/entity/CocodrileLogic.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/entity/CrocodrileLogic.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/entity/CocodrileLogic.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/entity/CrocodrileLogic.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/entity/FruitList.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/entity/FruitList.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/entity/FruitList.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/entity/FruitList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/entity/FruitLogic.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/entity/FruitLogic.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/json/jsonSerializer.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/json/jsonSerializer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/json/jsonSerializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/json/jsonSerializer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/sockets/clientSocket.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/sockets/clientSocket.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/sockets/clientSocket.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/sockets/clientSocket.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

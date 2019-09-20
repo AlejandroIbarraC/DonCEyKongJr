@@ -202,7 +202,7 @@ struct crocodrile deserialize_Coco(const char *json){
 }
 
 /*
- *  crocodrile JSON format: [iD code: 1]
+ *  Fruit JSON format: [iD code: 1]
  *
     {
         "iD":0,

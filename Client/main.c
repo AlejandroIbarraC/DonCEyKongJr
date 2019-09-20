@@ -91,14 +91,14 @@ void printFruit(struct fruit f){
 
 int main(int argc, char *argv[]){
 
-    /*char *json1 = "{\"iD\":1,\"iPos\":234,\"jPos\":567,\"onScreen\":1,\"onField\":99,\"onVine\":0,\"crocSpeed\":22,\"mouth\":2,\"whichCroc\":null,\"viewU\":90,\"viewD\":8,\"viewR\":56,\"viewL\":12}";
+    char *json1 = "{\"iD\":1,\"iPos\":234,\"jPos\":567,\"onScreen\":1,\"onField\":99,\"onVine\":0,\"crocSpeed\":22,\"mouth\":2,\"whichCroc\":null,\"viewU\":90,\"viewD\":8,\"viewR\":56,\"viewL\":12}";
     if(isCoco(json1)){
         struct crocodrile k = deserialize_Coco(json1);
         printCoco(k);
     }else {
         struct fruit f = deserialize_Fruit(json1);
         printFruit(f);
-    }*/
+    }
 
     init_Donkey(argc,argv);
 
