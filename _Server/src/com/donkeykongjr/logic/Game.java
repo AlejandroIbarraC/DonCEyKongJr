@@ -1,4 +1,4 @@
-package primaryMatrix;
+package com.donkeykongjr.logic;
 
 public class Game {
 

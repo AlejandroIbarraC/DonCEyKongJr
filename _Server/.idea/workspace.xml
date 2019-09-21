@@ -2,7 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d95e4a38-c899-4c80-83d8-fb936543d351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/donkeykongjr/connection/Sockets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base_11_linux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/donkeykongjr/ui/mainWindowsJava.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/jackson_lib/jackson-annotations-2.10.0.pr2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/jackson_lib/jackson-core-2.10.0.pr2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/jackson_lib/jackson-databind-2.10.0.pr2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-base-11-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-base-11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-controls-11-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-controls-11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-fxml-11-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-fxml-11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-graphics-11-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-graphics-11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-base-11.0.2-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-base-11.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-controls-11.0.2-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-controls-11.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-graphics-11.0.2-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-graphics-11.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-media-11.0.2-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-media-11.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-web-11.0.2-linux.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-web-11.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/oauth-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/openid-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/slf4j-api-1.7.27.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java_libraries/json-20190722.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_10_0_pr2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_10_0_pr2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/json_20190722.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/json_20190722.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/_Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,14 +52,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/Sockets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+            <state relative-caret-position="656">
+              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/mainWindowsJava.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -51,6 +130,11 @@
         <option value="$PROJECT_DIR$/src/com/donkeykongjr/json/jsonParser.java" />
         <option value="$PROJECT_DIR$/src/com/donkeykongjr/entity/Fruit.java" />
         <option value="$PROJECT_DIR$/src/com/donkeykongjr/connection/Sockets.java" />
+        <option value="$PROJECT_DIR$/src/com/donkeykongjr/ui/main.java" />
+        <option value="$PROJECT_DIR$/src/com/donkeykongjr/ui/mainWindowsJava.fxml" />
+        <option value="$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java" />
+        <option value="$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java" />
       </list>
     </option>
   </component>
@@ -100,6 +184,17 @@
               <item name="donkeykongjr" type="462c0819:PsiDirectoryNode" />
               <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="donkeykongjr" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -110,13 +205,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Descargas/XX.jar/jar_files/jar_files (1)/jackson-databind-2.10.0.pr2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-graphics-11.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/donkeykongjr/ui" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,13 +230,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.jsonParser">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClientSocket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.donkeykongjr.connection.ClientSocket" />
       <module name="_Server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.donkeykongjr.connection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.donkeykongjr.ui.Main" />
+      <module name="_Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.donkeykongjr.ui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,6 +285,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.jsonParser" />
         <item itemvalue="Application.ClientSocket" />
         <item itemvalue="Application.MultiServer" />
@@ -193,17 +307,27 @@
       <workItem from="1568813757909" duration="419000" />
       <workItem from="1568981309025" duration="3415000" />
       <workItem from="1569000433756" duration="172000" />
+      <workItem from="1569095981589" duration="1203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10280000" />
+    <option name="totallyTimeSpent" value="11483000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26015037" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26277372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -213,15 +337,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32944915" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32944915" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32838982" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -286,7 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/entity/Cocodrile.java" />
     <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/json/jsonParser.java" />
     <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/entity/Fruit.java" />
@@ -312,8 +435,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/Sockets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state relative-caret-position="656">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/mainWindowsJava.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -384,7 +542,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jackson-annotations-2.10.0.pr2</last-edited>
+          <last-edited>javafx-base-11-linux</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

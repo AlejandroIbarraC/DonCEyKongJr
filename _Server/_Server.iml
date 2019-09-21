@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="json-20190722" level="project" />
     <orderEntry type="library" name="jackson-annotations-2.10.0.pr2" level="project" />
+    <orderEntry type="library" name="javafx-base-11-linux" level="project" />
   </component>
 </module>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="508.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.donkeykongjr.ui.MainWindowsJavaController">
+   <children>
+      <Label fx:id="addFruit" layoutX="32.0" layoutY="25.0" text="AddFruit" />
+      <TextField fx:id="MPosFruit" layoutX="14.0" layoutY="60.0" prefHeight="31.0" prefWidth="108.0" />
+      <Label layoutX="142.0" layoutY="65.0" text="MPos" />
+      <TextField fx:id="NPosFruit" layoutX="14.0" layoutY="110.0" prefHeight="31.0" prefWidth="108.0" />
+      <Label layoutX="141.0" layoutY="115.0" text="NPos" />
+      <TextField fx:id="Points" layoutX="14.0" layoutY="158.0" prefHeight="31.0" prefWidth="108.0" />
+      <Label layoutX="141.0" layoutY="163.0" text="Points" />
+      <Button fx:id="fruitButton" layoutX="14.0" layoutY="208.0" mnemonicParsing="false" onAction="#addFruit" prefHeight="31.0" prefWidth="108.0" text="AddFruit" />
+      <Label layoutX="413.0" layoutY="25.0" text="AddEnemy" />
+      <TextField fx:id="MposEnemy" layoutX="389.0" layoutY="60.0" prefHeight="31.0" prefWidth="119.0" />
+      <TextField fx:id="NPosEnemy" layoutX="389.0" layoutY="110.0" prefHeight="31.0" prefWidth="119.0" />
+      <Label layoutX="520.0" layoutY="65.0" text="MPos" />
+      <Label layoutX="521.0" layoutY="115.0" text="Npos" />
+      <Label layoutX="521.0" layoutY="163.0" text="RedEnemy" />
+      <Button fx:id="redEnemy" layoutX="389.0" layoutY="158.0" mnemonicParsing="false" onAction="#addRedEnemy" prefHeight="31.0" prefWidth="119.0" text="AddRed" />
+      <Button fx:id="blueEnemy" layoutX="389.0" layoutY="214.0" mnemonicParsing="false" onAction="#addBlueEnemy" prefHeight="31.0" prefWidth="119.0" text="AddBlue" />
+      <Label layoutX="519.0" layoutY="219.0" text="BlueEnemy" />
+      <Button layoutX="224.0" layoutY="292.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="182.0" text="StartGame" />
+      <Button fx:id="exitButton" layoutX="224.0" layoutY="388.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="59.0" prefWidth="182.0" text="Quit" />
+   </children>
+</AnchorPane>
