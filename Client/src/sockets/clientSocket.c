@@ -1,26 +1,42 @@
 #include "clientSocket.h"
 
-
 int send_Message(char ip_addr [] ,int port,char *msg){
     int sock = 0;
     struct sockaddr_in serv_addr;
     char *out_Data = msg;
 
-    if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
+    // Linux && MacOS
+    /*if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
+    {
+        printf("%d")
+        printf("\n Socket creation error \n");
+        goto end;
+    }*/
+
+    // Windows
+    if ((sock = socket(AF_INET, SOCK_STREAM, 0)) != INVALID_SOCKET)
     {
         printf("\n Socket creation error \n");
         goto end;
     }
-
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(port);
 
     // Convert IPv4 and IPv6 addresses from text to binary form
-    if(inet_pton(AF_INET, ip_addr, &serv_addr.sin_addr)<=0)
+
+    // Linux & MacOS
+    /*if(inet_pton(AF_INET, ip_addr, &serv_addr.sin_addr)<=0)
     {
         printf("\nInvalid address/ Address not supported \n");
         goto end;
-    }
+    }*/
+
+    //Windows
+    /*if(inet_pton(AF_INET, ip_addr, &serv_addr.sin_addr)<=0)
+    {
+        printf("\nInvalid address/ Address not supported \n");
+        goto end;
+    }*/
 
     if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0)
     {
@@ -54,8 +70,13 @@ char* recv_Message(int port){
     }
 
     // Forcefully attaching socket to the port 8080
-    if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,
-                   &opt, sizeof(opt)))
+
+    //For Unix OS -> Linux and MACOS
+    /*if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,
+                   &opt, sizeof(opt)))*/
+    // For WindowsOS, the SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT is SO_REUSEADDR
+    if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR,
+                   (const char *) &opt, sizeof(opt)))
     {
         perror("setsockopt");
         exit(EXIT_FAILURE);

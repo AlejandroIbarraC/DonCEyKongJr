@@ -10,15 +10,23 @@
 #ifndef CLIENT_CLIENTSOCKET_H
 #define CLIENT_CLIENTSOCKET_H
 
+#ifdef __WIN32__
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#pragma comment(lib, "ws2_32.lib")
+#else
 #include <sys/socket.h>
 #include <arpa/inet.h>
+#include <netinet/in.h>
+#endif
+
 #include <unistd.h>
 #include <stdlib.h>
-#include <netinet/in.h>
 #include <string.h>
 #include<stdio.h>
 
-
+#define INVALID_SOCKET (SOCKET)(~0)
+#define SOCKET_ERROR (-1)
 /*
  * This method opens a communication using Sockets. Receive the IP address,
  * the communication port and the message to send. Once the message is sent,

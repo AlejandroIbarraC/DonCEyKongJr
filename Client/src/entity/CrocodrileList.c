@@ -7,7 +7,7 @@
 
 void insertFirstC(struct crocodrile* crocodrile) {
     //create a link
-    struct crocodrileNode *link = (struct cocodrileNode*) malloc(sizeof(struct crocodrileNode));
+    struct crocodrileNode *link = (struct cocodrileNode *) malloc(sizeof(struct crocodrileNode));
 
     link->crocodrile = crocodrile;
 

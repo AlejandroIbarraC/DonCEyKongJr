@@ -89,6 +89,33 @@ void printFruit(struct fruit f){
     printf("FRUIT \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d \n*%d \n",f.iD,f.iPos,f.jPos,f.onScreen,f.onVine,f.onField,f.whichFruit);
 }
 
+int inet_pton(int af, const char *src, void *dst)
+{
+    struct sockaddr_storage ss;
+    int size = sizeof(ss);
+    char src_copy[INET6_ADDRSTRLEN+1];
+
+    ZeroMemory(&ss, sizeof(ss));
+    /* stupid non-const API */
+    strncpy (src_copy, src, INET6_ADDRSTRLEN+1);
+    src_copy[INET6_ADDRSTRLEN] = 0;
+
+    printf("1::%d\n",WSAStringToAddress(src_copy, af, NULL, (struct sockaddr *)&ss, &size));
+
+    if (WSAStringToAddress(TEXT(src_copy), af, NULL, (struct sockaddr *)&ss, &size) == 0) {
+        printf("Entra");
+        switch(af) {
+            case AF_INET:
+                *(struct in_addr *)dst = ((struct sockaddr_in *)&ss)->sin_addr;
+                return 1;
+            case AF_INET6:
+                *(struct in6_addr *)dst = ((struct sockaddr_in6 *)&ss)->sin6_addr;
+                return 1;
+        }
+    }
+    return 0;
+}
+
 int main(int argc, char *argv[]){
 
     char *json1 = "{\"iD\":1,\"iPos\":234,\"jPos\":567,\"onScreen\":1,\"onField\":99,\"onVine\":0,\"crocSpeed\":22,\"mouth\":2,\"whichCroc\":null,\"viewU\":90,\"viewD\":8,\"viewR\":56,\"viewL\":12}";
@@ -99,7 +126,7 @@ int main(int argc, char *argv[]){
         struct fruit f = deserialize_Fruit(json1);
         printFruit(f);
     }
-
+    send_Message("127.0.0.1",8080,"Hello");
     init_Donkey(argc,argv);
 
     return 0;
