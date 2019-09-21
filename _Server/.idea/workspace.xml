@@ -2,45 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d95e4a38-c899-4c80-83d8-fb936543d351" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx_base_11_linux.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/donkeykongjr/ui/mainWindowsJava.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/jackson_lib/jackson-annotations-2.10.0.pr2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/jackson_lib/jackson-core-2.10.0.pr2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/jackson_lib/jackson-databind-2.10.0.pr2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-base-11-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-base-11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-controls-11-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-controls-11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-fxml-11-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-fxml-11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-graphics-11-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx.fxml_lib/javafx-graphics-11.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/api-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-base-11.0.2-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-base-11.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-controls-11.0.2-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-controls-11.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-graphics-11.0.2-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-graphics-11.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-media-11.0.2-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-media-11.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-web-11.0.2-linux.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/javafx-web-11.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/oauth-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/openid-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/javafx_lib/slf4j-api-1.7.27.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../java_libraries/json-20190722.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_10_0_pr2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jackson_annotations_2_10_0_pr2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/json_20190722.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/json_20190722.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/_Server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,65 +16,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/Sockets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="656">
-              <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/mainWindowsJava.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,87 +28,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/connection/ClientSocker.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/connection/ClientSocket.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/connection/MultiServer.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/entity/Cocodrile.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/json/jsonParser.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/entity/Fruit.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/connection/Sockets.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/ui/main.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/ui/mainWindowsJava.fxml" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="492" />
-    <option name="y" value="30" />
-    <option name="width" value="683" />
-    <option name="height" value="738" />
-  </component>
+  <component name="ProjectId" id="1RAE6uQkHhDfO38E9VkDZq9kDin" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donkeykongjr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donkeykongjr" type="462c0819:PsiDirectoryNode" />
-              <item name="connection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donkeykongjr" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="_Server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="donkeykongjr" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DonkeyKongServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -211,7 +40,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -308,11 +137,9 @@
       <workItem from="1568981309025" duration="3415000" />
       <workItem from="1569000433756" duration="172000" />
       <workItem from="1569095981589" duration="1203000" />
+      <workItem from="1569101348471" duration="1255000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -323,161 +150,19 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26277372" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32838982" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32944915" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32944915" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32838982" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25714287" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/package-info.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="211" column="16" selection-start-line="211" selection-start-column="16" selection-end-line="211" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_Server.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/entity/Cocodrile.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/json/jsonParser.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/entity/Fruit.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/MultiServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/ClientSocket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/Sockets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/mainWindowsJava.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/logic/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/MainWindowsJavaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

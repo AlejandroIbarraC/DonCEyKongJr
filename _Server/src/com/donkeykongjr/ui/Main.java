@@ -10,7 +10,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("mainWindowsJava.fxml"));
-        primaryStage.setTitle("Primary Window");
+        primaryStage.setTitle("Donkey Kong JR - Game Manager");
         primaryStage.setScene(new Scene(root, 600, 600));
         primaryStage.show();
     }

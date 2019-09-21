@@ -45,10 +45,14 @@ public class MainWindowsJavaController {
     void addFruit() {
         String posicionI = MPosFruit.getText();
         String posicionJ = NPosFruit.getText();
-        Integer i = Integer.valueOf(posicionI);
-        Integer j = Integer.valueOf(posicionJ);
-        game.addFruitToMatrix(i, j);
-
+        try {
+            Integer i = Integer.valueOf(posicionI);
+            Integer j = Integer.valueOf(posicionJ);
+            System.out.println("Fruit added in game Matrix!!");
+            game.addFruitToMatrix(i, j);
+        }catch (Exception e){
+            System.out.println("\tError en el manejo de los Datos!\n\t¡Asegurese de ingresar números!");
+        }
     }
 
     @FXML

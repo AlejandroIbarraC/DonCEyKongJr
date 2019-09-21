@@ -35,12 +35,15 @@ public class Game {
         }
     }
     public void addFruitToMatrix(Integer i , Integer j){
-        gameMatrix[i][j] = fruit;
+        if(i != null && j != null)
+            gameMatrix[i][j] = fruit;
     }
-    public void addRedEnemyToMatrix(int i , int j){
-        gameMatrix[i][j] = redEnemy;
+    public void addRedEnemyToMatrix(Integer i , Integer j){
+        if(i != null && j != null)
+            gameMatrix[i][j] = redEnemy;
     }
-    public void addBlueEnemyToMatrix(int i , int j){
-        gameMatrix[i][j] = blueEnemy;
+    public void addBlueEnemyToMatrix(Integer i , Integer j){
+        if(i != null && j != null)
+            gameMatrix[i][j] = blueEnemy;
     }
 }
