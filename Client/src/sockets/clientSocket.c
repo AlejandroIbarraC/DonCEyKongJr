@@ -21,6 +21,7 @@ int send_Message(char ip_addr [] ,int port,char *msg){
     }
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_port = htons(port);
+    serv_addr.sin_addr.s_addr = inet_addr(ip_addr);
 
     // Convert IPv4 and IPv6 addresses from text to binary form
 
