@@ -34,12 +34,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0a319b0-d7ab-4fe6-98a4-2db187926b45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/backgrounds/background2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_onvine_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_onvine_down_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_onvine_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_onvine_up_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_open_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_onvine_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_onvine_down_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_onvine_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_onvine_up_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_open_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/floor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/vine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/apple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/apple_onvine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/banana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/banana_onvine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/mango.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/mango_onvine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/dead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/jumpleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/jumpright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/onvine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_left1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_left2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_left3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_right1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_right2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_right3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/movement/win.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Crocodile.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/DKJr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Fruit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/data/codes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/data/matrix.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/background2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mountains-on-mars.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileList.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/CrocodrileList.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sockets/clientSocket.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sockets/clientSocket.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sockets/clientSocket.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/sockets/clientSocket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileList.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileLogic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileLogic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/DKLogic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/DKLogic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/FruitList.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/FruitList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/FruitLogic.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/FruitLogic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/game.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/game.h" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,16 +123,19 @@
   <component name="ProjectId" id="1RAHNkqCjjuTAEzq8wgQdPd7YBt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Esteban Alvarado\Documents\TEC\2S 2019\Lenguajes-Compiladore-Interpretes\1. Lenguajes\Proyectos\Proyecto 3\CE 3104-Donkey-Kong-JR\Client" />
       <recent name="$PROJECT_DIR$/src/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Esteban Alvarado\Documents\TEC\2S 2019\Lenguajes-Compiladore-Interpretes\1. Lenguajes\Proyectos\Proyecto 3\CE 3104-Donkey-Kong-JR\Client\src\logic\data" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,6 +175,8 @@
       <workItem from="1568968391207" duration="314000" />
       <workItem from="1568994838283" duration="4284000" />
       <workItem from="1569102969200" duration="7176000" />
+      <workItem from="1569113740143" duration="2563000" />
+      <workItem from="1569125017525" duration="12227000" />
     </task>
     <servers />
   </component>
@@ -121,7 +188,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

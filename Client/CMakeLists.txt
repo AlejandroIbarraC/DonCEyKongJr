@@ -14,8 +14,8 @@ add_executable(Client main.c
                 src/sockets/clientSocket.h
                 src/sockets/clientSocket.c
 
-                src/json/jsonSerializer.h
-                src/json/jsonSerializer.c
+                #rc/json/jsonSerializer.h
+                #src/json/jsonSerializer.c
 
                 src/ui/donkeyUI.c
                 src/ui/donkeyUI.h
@@ -23,18 +23,6 @@ add_executable(Client main.c
                 src/cjson/cJSON.h
                 src/cjson/cJSON.c
 
-                src/entity/CrocodrileList.h
-                src/entity/CrocodrileList.c
-                src/entity/CrocodrileLogic.h
-                src/entity/CrocodrileLogic.c
-
-                src/entity/DKLogic.h
-                src/entity/DKLogic.c
-
-                src/entity/FruitList.h
-                src/entity/FruitList.c
-                src/entity/FruitLogic.h
-                src/entity/FruitLogic.c
-                src/entity/game.c src/entity/game.h)
+        src/logic/data/codes.h src/entity/Crocodile.h src/entity/Fruit.h src/entity/DKJr.h)
 
 TARGET_LINK_LIBRARIES(Client ${GTK3_LIBRARIES} -lmingw32 -lws2_32 -lwsock32 -lmswsock -lallegro-5.0.10-monolith-md-debug)
