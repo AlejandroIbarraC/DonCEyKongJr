@@ -1,18 +1,18 @@
 /* --------------------------------------------------------------------
  * File: Fruit.h
  * author: @estalvgs1999 & @chuzz
- * Description: Header containing the fruit struct.
+ * Description: Header containing the Fruit struct.
  * version: 0.1
  * ITCR™ - sabrosos3G®
  * --------------------------------------------------------------------*/
 #ifndef CLIENT_FRUIT_H
 #define CLIENT_FRUIT_H
 
-struct fruit{
+struct Fruit{
 
     // Fruit properties
     int id; //Identifies the struct (2)
-    int key; //Number of fruit
+    int key; //Number of Fruit
     int f_type; // apple::31 >> banana::32 >> mango::33
     int points;
 

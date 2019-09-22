@@ -46,7 +46,7 @@ int main(int argc, char *argv[]){
         struct crocodrile k = deserialize_Coco(json1);
         printCoco(k);
     }else {
-        struct fruit f = deserialize_Fruit(json1);
+        struct Fruit f = deserialize_Fruit(json1);
         printFruit(f);
     }*/
 

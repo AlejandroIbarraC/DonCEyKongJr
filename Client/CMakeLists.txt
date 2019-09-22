@@ -23,6 +23,6 @@ add_executable(Client main.c
                 src/cjson/cJSON.h
                 src/cjson/cJSON.c
 
-        src/logic/data/codes.h src/entity/Crocodile.h src/entity/Fruit.h src/entity/DKJr.h)
+        src/logic/data/codes.h src/entity/Crocodile.h src/entity/Fruit.h src/entity/DKJr.h src/logic/entityList/FruitList.c src/logic/entityList/FruitList.h src/logic/entityList/CrocList.c src/logic/entityList/CrocList.h)
 
 TARGET_LINK_LIBRARIES(Client ${GTK3_LIBRARIES} -lmingw32 -lws2_32 -lwsock32 -lmswsock -lallegro-5.0.10-monolith-md-debug)

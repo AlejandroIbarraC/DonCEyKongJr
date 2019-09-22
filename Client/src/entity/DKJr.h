@@ -19,7 +19,7 @@ struct DKJr{
     int iPos,jPos;
 
     // Space Location >> 1: true | 0: false
-    int onScreen, onVine;
+    int onVine;
 
     // Movement properties
     int speed;

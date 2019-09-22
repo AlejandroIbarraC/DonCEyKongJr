@@ -34,74 +34,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0a319b0-d7ab-4fe6-98a4-2db187926b45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/backgrounds/background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/DK/dk9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_onvine_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_onvine_down_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_onvine_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_onvine_up_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/bluecroc/bluecroc_open_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_onvine_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_onvine_down_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_onvine_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_onvine_up_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/crocs/redcroc/redcroc_open_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/empty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/floor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/vine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/apple_onvine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/banana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/banana_onvine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/mango.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/fruits/mango_onvine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/dead.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/jumpleft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/jumpright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/onvine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_left1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_left2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_left3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_right1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_right2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/walk_right3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/sprites/movement/win.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Crocodile.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/DKJr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Fruit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/data/codes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/data/matrix.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/entityList/CrocList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/entityList/CrocList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/entityList/FruitList.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/entityList/FruitList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mountains-on-mars.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileList.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileLogic.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/CrocodrileLogic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/DKLogic.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/DKLogic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/FruitList.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/FruitList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/FruitLogic.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/FruitLogic.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/game.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/game.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Crocodile.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Crocodile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/DKJr.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/DKJr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Fruit.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Fruit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/jsonSerializer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/jsonSerializer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/jsonSerializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/jsonSerializer.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +120,7 @@
       <workItem from="1568994838283" duration="4284000" />
       <workItem from="1569102969200" duration="7176000" />
       <workItem from="1569113740143" duration="2563000" />
-      <workItem from="1569125017525" duration="12227000" />
+      <workItem from="1569125017525" duration="14660000" />
     </task>
     <servers />
   </component>
