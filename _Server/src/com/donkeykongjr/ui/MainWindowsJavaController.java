@@ -1,5 +1,6 @@
 package com.donkeykongjr.ui;
 
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -12,71 +13,134 @@ public class MainWindowsJavaController {
     private Game game = Game.getInstance();
 
     @FXML
+    private Button addEnemyButton;
+
+    @FXML
+    private TextField addEnemyRowEntry;
+
+    @FXML
+    private TextField addEnemyColumnEntry;
+
+    @FXML
+    private TextField addEnemyGameEntry;
+
+    @FXML
+    private TextField addEnemyTypeEntry;
+
+    @FXML
+    private Button addFruitButton;
+
+    @FXML
+    private TextField addFruitRowEntry;
+
+    @FXML
+    private TextField addFruitColumnEntry;
+
+    @FXML
+    private TextField addFruitGameEntry;
+
+    @FXML
+    private TextField addFruitPointsEntry;
+
+    @FXML
+    private TextField addFruitTypeEntry;
+
+    @FXML
+    private Label connectingToInfoLabel;
+
+    @FXML
+    private Label addEnemyErrorLabel;
+
+    @FXML
     private Button exitButton;
 
     @FXML
-    private TextField Points;
+    private Button removeFruitButton;
 
     @FXML
-    private Label addFruit;
+    private TextField removeFruitGameEntry;
 
     @FXML
-    private TextField NPosFruit;
+    private TextField removeFruitRowEntry;
 
     @FXML
-    private TextField MposEnemy;
-
-    @FXML
-    private Button redEnemy;
-
-    @FXML
-    private TextField MPosFruit;
-
-    @FXML
-    private Button fruitButton;
-
-    @FXML
-    private TextField NPosEnemy;
-
-    @FXML
-    private Button blueEnemy;
+    private TextField removeFruitColumnEntry;
 
     @FXML
     void addFruit() {
-        String posicionI = MPosFruit.getText();
-        String posicionJ = NPosFruit.getText();
+        String row = addFruitRowEntry.getText();
+        String column = addFruitColumnEntry.getText();
+        String type = addFruitTypeEntry.getText();
+        String gameNumber = addFruitGameEntry.getText();
         try {
-            Integer i = Integer.valueOf(posicionI);
-            Integer j = Integer.valueOf(posicionJ);
+            Integer i = Integer.valueOf(row);
+            Integer j = Integer.valueOf(column);
             System.out.println("Fruit added in game Matrix!!");
             game.addFruitToMatrix(i, j);
-        }catch (Exception e){
-            System.out.println("\tError en el manejo de los Datos!\n\t¡Asegurese de ingresar números!");
+        } catch (Exception e){
+            System.out.println("\tError!\n\t¡Please insert numbers!");
         }
     }
 
     @FXML
-    void addRedEnemy() {
-        String posicionI = MposEnemy.getText();
-        String posicionJ = NPosEnemy.getText();
-        Integer i = Integer.valueOf(posicionI);
-        Integer j = Integer.valueOf(posicionJ);
-        game.addRedEnemyToMatrix(i, j);
+    void addEnemy() {
+        String row = addEnemyRowEntry.getText();
+        String column = addEnemyColumnEntry.getText();
+        String type = addEnemyTypeEntry.getText();
+        String gameNumber = addEnemyGameEntry.getText();
+        try {
+            Integer i = Integer.valueOf(row);
+            Integer j = Integer.valueOf(column);
+            if (type.equals("Red") || type.equals("red")) {
+                game.addRedEnemyToMatrix(i, j);
+            } else if (type.equals("Blue") || type.equals("blue")) {
+                game.addBlueEnemyToMatrix(i, j);
+            } else {
+                addEnemyErrorLabel.setText("Wrong enemy type to add");
+            }
+        } catch (Exception e) {
+            System.out.println("\tError!\n\t¡Please insert numbers!");
+        }
     }
 
     @FXML
-    void addBlueEnemy() {
-        System.out.println("f");
-        String posicionI = MposEnemy.getText();
-        String posicionJ = NPosEnemy.getText();
-        Integer i = Integer.parseInt(posicionI);
-        Integer j = Integer.parseInt(posicionJ);
-        game.addBlueEnemyToMatrix(i, j);
+    void connect1() {
+
+    }
+
+    @FXML
+    void connect2() {
+
+    }
+
+    @FXML
+    void removeFruit() {
+        String row = removeFruitRowEntry.getText();
+        String column = removeFruitColumnEntry.getText();
+        String gameNumber = removeFruitGameEntry.getText();
+        try {
+            Integer i = Integer.valueOf(row);
+            Integer j = Integer.valueOf(column);
+            System.out.println("Fruit added in game Matrix!!");
+            //game.removeFruitInMatrix(i, j);
+        } catch (Exception e){
+            System.out.println("\tError!\n\t¡Please insert numbers!");
+        }
+    }
+
+    @FXML
+    void startGame1() {
+
+    }
+
+    @FXML
+    void startGame2() {
+
     }
 
     @FXML
     void quitGame() {
-
+        Platform.exit();
     }
 
 }

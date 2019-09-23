@@ -1,33 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.effect.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="508.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.donkeykongjr.ui.MainWindowsJavaController">
+<AnchorPane prefHeight="447.0" prefWidth="839.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.donkeykongjr.ui.MainWindowsJavaController">
    <children>
-      <Label fx:id="addFruit" layoutX="32.0" layoutY="25.0" text="AddFruit" />
-      <TextField fx:id="MPosFruit" layoutX="14.0" layoutY="60.0" prefHeight="31.0" prefWidth="108.0" />
-      <Label layoutX="142.0" layoutY="65.0" text="MPos" />
-      <TextField fx:id="NPosFruit" layoutX="14.0" layoutY="110.0" prefHeight="31.0" prefWidth="108.0" />
-      <Label layoutX="141.0" layoutY="115.0" text="NPos" />
-      <TextField fx:id="Points" layoutX="14.0" layoutY="158.0" prefHeight="31.0" prefWidth="108.0" />
-      <Label layoutX="141.0" layoutY="163.0" text="Points" />
-      <Button fx:id="fruitButton" layoutX="14.0" layoutY="208.0" mnemonicParsing="false" onAction="#addFruit" prefHeight="31.0" prefWidth="108.0" text="AddFruit" />
-      <Label layoutX="413.0" layoutY="25.0" text="AddEnemy" />
-      <TextField fx:id="MposEnemy" layoutX="389.0" layoutY="60.0" prefHeight="31.0" prefWidth="119.0" />
-      <TextField fx:id="NPosEnemy" layoutX="389.0" layoutY="110.0" prefHeight="31.0" prefWidth="119.0" />
-      <Label layoutX="520.0" layoutY="65.0" text="MPos" />
-      <Label layoutX="521.0" layoutY="115.0" text="Npos" />
-      <Label layoutX="521.0" layoutY="163.0" text="RedEnemy" />
-      <Button fx:id="redEnemy" layoutX="389.0" layoutY="158.0" mnemonicParsing="false" onAction="#addRedEnemy" prefHeight="31.0" prefWidth="119.0" text="AddRed" />
-      <Button fx:id="blueEnemy" layoutX="389.0" layoutY="214.0" mnemonicParsing="false" onAction="#addBlueEnemy" prefHeight="31.0" prefWidth="119.0" text="AddBlue" />
-      <Label layoutX="519.0" layoutY="219.0" text="BlueEnemy" />
-      <Button layoutX="224.0" layoutY="292.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="182.0" text="StartGame" />
-      <Button fx:id="exitButton" layoutX="224.0" layoutY="388.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="59.0" prefWidth="182.0" text="Quit" />
+      <Label fx:id="addFruitLabel" layoutX="60.0" layoutY="25.0" text="Add Fruit" />
+      <TextField fx:id="addFruitRowEntry" layoutX="29.0" layoutY="60.0" prefHeight="31.0" prefWidth="108.0" />
+      <Label layoutX="157.0" layoutY="65.0" text="Row" />
+      <TextField fx:id="addFruitColumnEntry" layoutX="29.0" layoutY="110.0" prefHeight="31.0" prefWidth="108.0" />
+      <Label layoutX="156.0" layoutY="115.0" text="Column" />
+      <TextField fx:id="addFruitPointsEntry" layoutX="29.0" layoutY="158.0" prefHeight="31.0" prefWidth="108.0" />
+      <Label layoutX="156.0" layoutY="163.0" text="Points" />
+      <Button fx:id="addFruitButton" layoutX="35.0" layoutY="299.0" mnemonicParsing="false" onAction="#addFruit" prefHeight="31.0" prefWidth="108.0" text="Add" />
+      <Label layoutX="252.0" layoutY="22.0" text="Add Enemy" />
+      <TextField fx:id="addEnemyRowEntry" layoutX="228.0" layoutY="58.0" prefHeight="31.0" prefWidth="119.0" />
+      <TextField fx:id="addEnemyColumnEntry" layoutX="228.0" layoutY="107.0" prefHeight="31.0" prefWidth="119.0" />
+      <Label layoutX="359.0" layoutY="62.0" text="Row" />
+      <Label layoutX="360.0" layoutY="112.0" text="Column" />
+      <Label layoutX="360.0" layoutY="160.0" text="Type" />
+      <Button fx:id="addEnemyButton" layoutX="228.0" layoutY="254.0" mnemonicParsing="false" onAction="#addEnemy" prefHeight="31.0" prefWidth="119.0" text="Add" />
+      <Button fx:id="connectButton1" layoutX="447.0" layoutY="294.0" mnemonicParsing="false" onAction="#connect1" prefHeight="31.0" prefWidth="108.0" text="Connect" />
+      <Button fx:id="exitButton" layoutX="31.0" layoutY="391.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="31.0" prefWidth="70.0" text="Exit" />
+      <TextField fx:id="addFruitTypeEntry" layoutX="31.0" layoutY="204.0" prefHeight="31.0" prefWidth="108.0" />
+      <Label layoutX="156.0" layoutY="211.0" text="Type" />
+      <TextField fx:id="addEnemyTypeEntry" layoutX="228.0" layoutY="155.0" prefHeight="31.0" prefWidth="119.0" />
+      <TextField fx:id="removeFruitRowEntry" layoutX="433.0" layoutY="58.0" prefHeight="31.0" prefWidth="119.0" />
+      <Label fx:id="addFruit1" layoutX="458.0" layoutY="25.0" text="Remove Fruit" />
+      <TextField fx:id="removeFruitColumnEntry" layoutX="434.0" layoutY="107.0" prefHeight="31.0" prefWidth="119.0" />
+      <Label layoutX="572.0" layoutY="65.0" text="Row" />
+      <Label layoutX="563.0" layoutY="114.0" text="Column" />
+      <Button fx:id="removeFruitButton" layoutX="433.0" layoutY="204.0" mnemonicParsing="false" onAction="#removeFruit" prefHeight="31.0" prefWidth="119.0" text="Remove" />
+      <Button fx:id="startButton1" layoutX="447.0" layoutY="365.0" mnemonicParsing="false" onAction="#startGame1" prefHeight="31.0" prefWidth="108.0" text="Start" />
+      <Label fx:id="connectingToLabel1" layoutX="449.0" layoutY="337.0" text="Connected to:" />
+      <Label fx:id="connectingToInfoLabel" layoutX="118.0" layoutY="389.0" />
+      <Label fx:id="addEnemyErrorLabel" layoutX="234.0" layoutY="306.0" prefHeight="17.0" prefWidth="108.0" />
+      <Button fx:id="connectButton2" layoutX="657.0" layoutY="294.0" mnemonicParsing="false" onAction="#connect2" prefHeight="31.0" prefWidth="108.0" text="Connect" />
+      <Button fx:id="startButton2" layoutX="657.0" layoutY="365.0" mnemonicParsing="false" onAction="#startGame2" prefHeight="31.0" prefWidth="108.0" text="Start" />
+      <Label fx:id="connectingToLabel2" layoutX="654.0" layoutY="333.0" text="Connected to:" />
+      <Label layoutX="480.0" layoutY="265.0" text="Game 1" />
+      <Label layoutX="691.0" layoutY="265.0" text="Game 2" />
+      <TextField fx:id="addFruitGameEntry" layoutX="34.0" layoutY="254.0" prefHeight="31.0" prefWidth="108.0" />
+      <Label layoutX="159.0" layoutY="261.0" text="Game" />
+      <TextField fx:id="addEnemyGameEntry" layoutX="228.0" layoutY="208.0" prefHeight="31.0" prefWidth="119.0" />
+      <Label layoutX="360.0" layoutY="211.0" text="Game" />
+      <Label fx:id="addFruitErrorLabel" layoutX="35.0" layoutY="348.0" prefHeight="17.0" prefWidth="108.0" />
+      <Label fx:id="removeFruitErrorLabel" layoutX="439.0" layoutY="196.0" prefHeight="17.0" prefWidth="108.0" />
+      <TextField fx:id="removeFruitGameEntry" layoutX="434.0" layoutY="153.0" prefHeight="31.0" prefWidth="119.0" />
+      <Label layoutX="568.0" layoutY="162.0" text="Game" />
    </children>
 </AnchorPane>
