@@ -34,16 +34,35 @@ public class Game {
             }
         }
     }
-    public void addFruitToMatrix(Integer i , Integer j){
+    public void addFruitToMatrixBanana(Integer i , Integer j){
         if(i != null && j != null)
-            gameMatrix[i][j] = fruit;
+            gameMatrix[i][j] = banana;
+    }
+
+    public void addFruitToMatrixApple(Integer i , Integer j){
+        if(i != null && j != null)
+            gameMatrix[i][j] = apple;
+    }
+
+    public void addFruitToMatrixMango(Integer i , Integer j){
+        if(i != null && j != null)
+            gameMatrix[i][j] = mango;
     }
     public void addRedEnemyToMatrix(Integer i , Integer j){
         if(i != null && j != null)
             gameMatrix[i][j] = redEnemy;
     }
     public void addBlueEnemyToMatrix(Integer i , Integer j){
-        if(i != null && j != null)
+        if((i != null && j != null) )
             gameMatrix[i][j] = blueEnemy;
     }
+
+    public void removeFruitFromMatrixVyne(Integer i, Integer j){
+        gameMatrix[i][j] = 2;
+    }
+
+    public void removeFruitFromMatrixField(Integer i, Integer j){
+        gameMatrix[i][j] = 1;
+    }
+
 }

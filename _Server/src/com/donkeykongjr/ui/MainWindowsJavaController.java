@@ -75,9 +75,15 @@ public class MainWindowsJavaController {
         try {
             Integer i = Integer.valueOf(row);
             Integer j = Integer.valueOf(column);
-            System.out.println("Fruit added in game Matrix!!");
-            game.addFruitToMatrix(i, j);
-        } catch (Exception e){
+            if (type.equals("Banana") || type.equals("banana")) {
+                game.ddFruitToMatrixBanana(i, j);}
+            else if (type.equals("Apple") || type.equals("apple")) {
+                game.ddFruitToMatrixApple(i, j);}
+            else if (type.equals("Mango") || type.equals("mango")) {
+                game.ddFruitToMatrixMango(i, j);}
+            else {
+                addFruitErrorLabel.setText("Wrong fruit type to add");
+         catch (Exception e){
             System.out.println("\tError!\n\t¡Please insert numbers!");
         }
     }
@@ -114,18 +120,36 @@ public class MainWindowsJavaController {
     }
 
     @FXML
-    void removeFruit() {
+    void removeFruitFromMatrixVyne() {
         String row = removeFruitRowEntry.getText();
         String column = removeFruitColumnEntry.getText();
         String gameNumber = removeFruitGameEntry.getText();
         try {
             Integer i = Integer.valueOf(row);
             Integer j = Integer.valueOf(column);
-            System.out.println("Fruit added in game Matrix!!");
-            //game.removeFruitInMatrix(i, j);
+            System.out.println("Fruit removed from game Matrix!!");
+            game.removeFruitFromVyne(i, j);
         } catch (Exception e){
             System.out.println("\tError!\n\t¡Please insert numbers!");
         }
+
+
+    }
+
+    void removeFruitFromMatrixField() {
+        String row = removeFruitRowEntry.getText();
+        String column = removeFruitColumnEntry.getText();
+        String gameNumber = removeFruitGameEntry.getText();
+        try {
+            Integer i = Integer.valueOf(row);
+            Integer j = Integer.valueOf(column);
+            System.out.println("Fruit removed from game Matrix!!");
+            game.removeFruitFromField(i, j);
+        } catch (Exception e){
+            System.out.println("\tError!\n\t¡Please insert numbers!");
+        }
+
+
     }
 
     @FXML
