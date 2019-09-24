@@ -41,8 +41,8 @@ int draw_Matrix(int key_code,ALLEGRO_DISPLAY* display, ALLEGRO_BITMAP* bitmap){
 
     // Entities
     draw_Fruit();
-    draw_Croc();
-    draw_DKJr();*/
+    draw_Croc();*/
+    draw_DKJr();
 
     al_hold_bitmap_drawing(false);
     al_flip_display();
@@ -227,6 +227,106 @@ void draw_Vine(){
     }
     al_draw_bitmap(leaf, calc_Xpos(9), calc_Ypos(0), 0);
 }
+
+/* -----------------------------------------------------------------------
+ *                            DRAW ENTITIES
+ * -----------------------------------------------------------------------*/
+
+void draw_DKJr(){
+    struct DKJr* localDKJr = getDonkey();
+    int iPos = localDKJr->iPos;
+    int jPos = localDKJr->jPos;
+    bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+    al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+    switch ((int)matrix[iPos][jPos]) {
+        case 411:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/walk_right1.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            if (iPrev != iPos || jPrev != jPos){
+                bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+                al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+            }
+            break;
+        case 412:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/walk_right2.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos - 1), calc_Ypos(iPos), 0);
+            if (iPrev != iPos || jPrev != jPos){
+                bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+                al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+            }
+            break;
+        case 413:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/walk_right3.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos - 1), calc_Ypos(iPos), 0);
+            if (iPrev != iPos || jPrev != jPos){
+                bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+                al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+            }
+            break;
+        case 421:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/walk_left1.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos + 1), calc_Ypos(iPos), 0);
+            if (iPrev != iPos || jPrev != jPos){
+                bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+                al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+            }
+            break;
+        case 422:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/walk_left2.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos + 1), calc_Ypos(iPos), 0);
+            if (iPrev != iPos || jPrev != jPos){
+                bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+                al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+            }
+            break;
+        case 423:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/walk_left3.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos + 1), calc_Ypos(iPos), 0);
+            if (iPrev != iPos || jPrev != jPos){
+                bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+                al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+            }
+            break;
+        case 431:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/onvine.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            break;
+        case 432:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/onvine.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            break;
+        case 441:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/jumpright.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            if (iPrev != iPos || jPrev != jPos){
+                bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+                al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+            }
+            break;
+        case 442:
+            bitmap = al_load_bitmap("../src/ui/img/sprites/movement/jumpleft.png");
+            al_draw_bitmap(bitmap, calc_Xpos(jPos), calc_Ypos(iPos), 0);
+            if (iPrev != iPos || jPrev != jPos){
+                bitmap = al_load_bitmap("../src/ui/img/sprites/enviroment/empty.png");
+                al_draw_bitmap(bitmap, calc_Xpos(jPrev), calc_Ypos(iPrev), 0);
+            }
+            break;
+    }
+    iPrev = iPos;
+    jPrev = jPos;
+}
+
+
 
 /* -----------------------------------------------------------------------
  *                         MATH CODE :)

@@ -602,7 +602,7 @@ void reset_DKJr(int* matrix[ROWS][COLS]){
     donkeyJr.airR = 0;
 
     // Donkey Positions
-    int initI= 22,initJ = 0;
+    int initI= 21,initJ = 0;
     int prevI = donkeyJr.iPos,prevJ = donkeyJr.jPos;
 
     // If Donkey was on a vine, a vine is drawn at the position, else an empty box is drawn
