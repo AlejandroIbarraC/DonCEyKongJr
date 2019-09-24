@@ -54,9 +54,9 @@ static int dkjr_WR2 = 412;
 static int dkjr_WR3 = 413;
 
 // Walk Left
-static int dkjr_LR1 = 421;
-static int dkjr_LR2 = 422;
-static int dkjr_LR3 = 423;
+static int dkjr_WL1 = 421;
+static int dkjr_WL2 = 422;
+static int dkjr_WL3 = 423;
 
 // Climb onVine
 static int dkjr_CL1 = 431;

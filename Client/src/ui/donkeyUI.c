@@ -23,18 +23,20 @@ int init_Donkey(int argc, char *argv[]){
     gtk_container_add(GTK_CONTAINER (window), layout);
     gtk_widget_show(layout);
     //Aqui lo que hacemos es crear los botones y el entry.Ademas de eso creamos  la imagen con el fondo  establecido
-    button = gtk_button_new_with_label ("Conectarse Como Jugador");
-    button2 = gtk_button_new_with_label ("Conectarse Como Observador");
+    button = gtk_button_new_with_label ("JUGAR");
+    button2 = gtk_button_new_with_label ("OBSERVAR");
     entry= gtk_entry_new ();
-    image = gtk_image_new_from_file("../img/background2.png");
+    image = gtk_image_new_from_file("../img/backgrounds/background1.png");
+
     //Aqui asociamos un metodo con el boton cuando se realiza en el la accion de clicked
     g_signal_connect (button, "clicked", G_CALLBACK (get_Input), NULL);
+
     //Aqui lo que hacemos es  pegar todas las cosas en la ventana con sus respectivas cordenadas
     gtk_layout_put(GTK_LAYOUT(layout), image, 0, 0);
     gtk_entry_set_max_length (GTK_ENTRY (entry),0);
-    gtk_layout_put(GTK_LAYOUT(layout), button2, 130, 445);
-    gtk_layout_put(GTK_LAYOUT(layout), button, 140, 390);
-    gtk_layout_put(GTK_LAYOUT(layout), entry, 475, 290);
+    gtk_layout_put(GTK_LAYOUT(layout), button2, 510, 450);
+    gtk_layout_put(GTK_LAYOUT(layout), button, 200, 450);
+    gtk_layout_put(GTK_LAYOUT(layout), entry, 535, 290);
     gtk_widget_set_size_request(button, 80, 35);
     gtk_widget_set_size_request(button2, 80, 35);
 /*

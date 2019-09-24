@@ -34,18 +34,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0a319b0-d7ab-4fe6-98a4-2db187926b45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/logic/entityList/CrocList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/entityList/CrocList.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/entityList/FruitList.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logic/entityList/FruitList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/backgrounds/background1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/groundleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/groundright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/platform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sprites/enviroment/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/game/Game.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/game/Game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/game/GameKinetics.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/game/GameKinetics.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_Server/.idea/_Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_Server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_Server/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Crocodile.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Crocodile.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/DKJr.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/DKJr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Fruit.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Fruit.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/json/jsonSerializer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/jsonSerializer.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/json/jsonSerializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/jsonSerializer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/entityList/CrocList.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/entityList/CrocList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/entityList/FruitList.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/entityList/FruitList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/donkeyUI.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/donkeyUI.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_Server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_Server/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +78,7 @@
   <component name="ProjectId" id="1RAHNkqCjjuTAEzq8wgQdPd7YBt" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DonCEy-Kong-Jr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -120,7 +131,7 @@
       <workItem from="1568994838283" duration="4284000" />
       <workItem from="1569102969200" duration="7176000" />
       <workItem from="1569113740143" duration="2563000" />
-      <workItem from="1569125017525" duration="14660000" />
+      <workItem from="1569125017525" duration="35858000" />
     </task>
     <servers />
   </component>

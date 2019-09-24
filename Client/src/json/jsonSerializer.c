@@ -1,9 +1,16 @@
 #include "jsonSerializer.h"
 
 // Function that receives an array and returns a json that contains it as an item
-char* serialize_Matrix(int matrix[ROWS][COLS]){
+char* serialize_Matrix(int* _matrix[ROWS][COLS]){
 
-
+    int matrix[ROWS][COLS];
+    for (int k = 0; k < ROWS; ++k) {
+        for (int w = 0; w < COLS ; ++w) {
+            matrix[k][w] = _matrix[k][w];
+            printf("[%d]",matrix[k][w]);
+        }
+        printf("\n");
+    }
     char *json_File;
 
     cJSON *_row = cJSON_CreateArray();
@@ -12,7 +19,7 @@ char* serialize_Matrix(int matrix[ROWS][COLS]){
     if(json_Object == NULL)
         goto end;
 
-    cJSON *_matrix = cJSON_CreateArray();
+    cJSON *g_matrix = cJSON_CreateArray();
     if(_matrix == NULL)
         goto end;
 
@@ -23,14 +30,20 @@ char* serialize_Matrix(int matrix[ROWS][COLS]){
 
         _row = cJSON_CreateArray();
         for (int j = 0; j < COLS; j++) {
-            _item = cJSON_CreateNumber(matrix[i][j]);
+            printf("%d::%d >> %s\n",i,j,matrix[i][j]);
+
+            //double number = *(matrix[i][j]);
+            /*printf("pasa0");
+            _item = cJSON_CreateNumber(number);
+            printf("pasa");
             cJSON_AddItemToArray(_row, _item);
+            printf("pasa2");*/
         }
 
-        cJSON_AddItemToArray(_matrix,_row);
+        cJSON_AddItemToArray(g_matrix,_row);
     }
 
-    cJSON_AddItemToObject(json_Object,"objMatrix",_matrix);
+    cJSON_AddItemToObject(json_Object,"objMatrix",g_matrix);
 
     json_File = cJSON_Print(json_Object);
     if (json_File == NULL)
@@ -43,7 +56,22 @@ char* serialize_Matrix(int matrix[ROWS][COLS]){
     return json_File;
 }
 
-
+int parse_Matrix(const char *json){
+    cJSON *matrix_Json = cJSON_Parse(json);
+    if(matrix_Json == NULL)
+        goto end;
+    //int* matrix[24][16];
+    cJSON *elem, *item;
+    elem = cJSON_GetObjectItem(matrix_Json,"objMatrix");
+    for (int i = 0; i < 24; ++i) {
+        item = cJSON_GetArrayItem(elem,i);
+        printf("%s\n",item->valuestring);
+    }
+    return 1;
+    end:
+    return 0;
+}
+/*
 int isCoco(const char *json){
     cJSON *coco_Json = cJSON_Parse(json);
     if (coco_Json == NULL)
@@ -110,8 +138,9 @@ int isFruit(const char *json){
         "viewL":13
     }
  */
-struct crocodrile deserialize_Coco(const char *json){
-    struct crocodrile _coco = { .iD = 0};
+/*
+struct Crocodrile deserialize_Croc(const char *json){
+    struct Crocodrile *_coco;
     // cJSON data tokens
     cJSON *iD,  *posI, *posJ;
     cJSON *onScreen, *onField;
@@ -214,8 +243,9 @@ struct crocodrile deserialize_Coco(const char *json){
         "whichFruit":8
     }
  */
-struct fruit deserialize_Fruit(const char *json){
-    struct fruit _fruit = { .iD = 0};
+/*
+struct Fruit deserialize_Fruit(const char *json){
+    struct Fruit* _fruit;
     // cJSON data tokens
     cJSON *iD,  *posI, *posJ;
     cJSON *onScreen, *onField, *inVine,  *whichFruit;
@@ -270,4 +300,4 @@ struct fruit deserialize_Fruit(const char *json){
     end:
     cJSON_Delete(fruit_Json);
     return _fruit;
-}
+}*/

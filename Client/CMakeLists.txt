@@ -10,11 +10,11 @@ LINK_DIRECTORIES(${GTK3_LIBRARY_DIRS})
 link_libraries(ws2_32 wsock32)
 ADD_DEFINITIONS(${GTK3_CFLAGS_OTHER})
 
-add_executable(Client main.c
+add_executable(Client src/ui/main.c
                 src/sockets/clientSocket.h
                 src/sockets/clientSocket.c
 
-                #rc/json/jsonSerializer.h
+                #src/json/jsonSerializer.h
                 #src/json/jsonSerializer.c
 
                 src/ui/donkeyUI.c
@@ -23,6 +23,6 @@ add_executable(Client main.c
                 src/cjson/cJSON.h
                 src/cjson/cJSON.c
 
-        src/logic/data/codes.h src/entity/Crocodile.h src/entity/Fruit.h src/entity/DKJr.h src/logic/entityList/FruitList.c src/logic/entityList/FruitList.h src/logic/entityList/CrocList.c src/logic/entityList/CrocList.h)
+        src/logic/data/codes.h src/entity/Crocodile.h src/entity/Fruit.h src/entity/DKJr.h src/logic/entityList/FruitList.c src/logic/entityList/FruitList.h src/logic/entityList/CrocList.c src/logic/entityList/CrocList.h src/logic/game/Game.c src/logic/game/Game.h src/logic/game/DonkeyDynamics.c src/logic/game/DonkeyDynamics.h src/ui/GameUI.c src/ui/GameUI.h)
 
 TARGET_LINK_LIBRARIES(Client ${GTK3_LIBRARIES} -lmingw32 -lws2_32 -lwsock32 -lmswsock -lallegro-5.0.10-monolith-md-debug)

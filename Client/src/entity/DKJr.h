@@ -16,7 +16,8 @@ struct DKJr{
     int donkeyLives; // Remaining lives
 
     // Positions in matrix (i,j)
-    int iPos,jPos;
+    int iPos;
+    int jPos;
 
     // Space Location >> 1: true | 0: false
     int onVine;
@@ -24,7 +25,9 @@ struct DKJr{
     // Movement properties
     int speed;
     int falling;
-    int airUp, airR, airL;
+    int airUp;
+    int airR;
+    int airL;
 };
 
 #endif //CLIENT_DKJR_H

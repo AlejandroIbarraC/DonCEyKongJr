@@ -40,7 +40,7 @@ struct Fruit* getFruit(int iPos, int jPos){
     if (fruit_head == NULL) {
         return NULL;
     }
-    while(tmp->_fruit->iPos != i && tmp->_fruit->jPos != jPos) {
+    while(tmp->_fruit->iPos != iPos && tmp->_fruit->jPos != jPos) {
         if(tmp->_next == NULL) {
             return NULL;
         } else {

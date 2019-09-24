@@ -39,7 +39,7 @@ struct Crocodile* getCroc(int iPos, int jPos){
     if (croc_head == NULL) {
         return NULL;
     }
-    while(tmp->_croc->iPos != i && tmp->_croc->jPos != jPos) {
+    while(tmp->_croc->iPos != iPos && tmp->_croc->jPos != jPos) {
         if(tmp->_next == NULL) {
             return NULL;
         } else {

@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d95e4a38-c899-4c80-83d8-fb936543d351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Client/img/backgrounds/background1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/img/sprites/enviroment/dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/img/sprites/enviroment/groundleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/img/sprites/enviroment/groundright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/img/sprites/enviroment/platform.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/img/sprites/enviroment/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/logic/game/Game.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/logic/game/Game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/logic/game/GameKinetics.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client/src/logic/game/GameKinetics.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/_Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/src/json/jsonSerializer.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/json/jsonSerializer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/sockets/clientSocket.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/sockets/clientSocket.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/src/sockets/clientSocket.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/sockets/clientSocket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/json/jsonSerializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/json/jsonSerializer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/logic/entityList/CrocList.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/logic/entityList/CrocList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/logic/entityList/FruitList.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/logic/entityList/FruitList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/src/ui/donkeyUI.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/src/ui/donkeyUI.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +34,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,40 +46,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/connection/ClientSocker.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/connection/ClientSocket.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/connection/MultiServer.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/entity/Cocodrile.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/json/jsonParser.java" />
-        <option value="$PROJECT_DIR$/src/com/donkeykongjr/entity/Fruit.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="492" />
-    <option name="y" value="30" />
-    <option name="width" value="683" />
-    <option name="height" value="738" />
-  </component>
+  <component name="ProjectId" id="1RDxcliCNTDTerRQC0tLFPHJJZo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Descargas/XX.jar/jar_files/jar_files (1)/jackson-databind-2.10.0.pr2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Kevin-Donkey" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -147,98 +134,23 @@
       <workItem from="1568813638238" duration="18000" />
       <workItem from="1568813757909" duration="419000" />
       <workItem from="1568981309025" duration="4146000" />
+      <workItem from="1569215582231" duration="142000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10839000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="7" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26015037" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32911393" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25714287" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/package-info.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="211" column="16" selection-start-line="211" selection-start-column="16" selection-end-line="211" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/MultiServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/connection/ClientSocket.java" />
-    <entry file="file://$PROJECT_DIR$/_Server.iml" />
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/ui/main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/entity/Cocodrile.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/entity/Fruit.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/donkeykongjr/json/jsonParser.java" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
