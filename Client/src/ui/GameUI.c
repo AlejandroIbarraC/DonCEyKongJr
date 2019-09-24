@@ -33,7 +33,7 @@ int draw_Matrix(int key_code,ALLEGRO_DISPLAY* display, ALLEGRO_BITMAP* bitmap){
     draw_Water();
     draw_Ground();
     draw_Floor();
-    //draw_Vine();
+    draw_Vine();
 
     // Secondary Characters
     /*draw_Mario();
@@ -110,68 +110,122 @@ void draw_Ground(){
     al_draw_bitmap(gndL,calc_Xpos(14), calc_Ypos(19), 0);
 }
 
-ALLEGRO_BITMAP* alternate_Vine(){
-    if(alternate){
-        alternate = 0;
-        return al_load_bitmap("../src/ui/img/sprites/enviroment/vine_leaf2.png");
-    }else{
-        alternate = 1;
-        return al_load_bitmap("../src/ui/img/sprites/enviroment/vine2.png");
-    }
-}
-
 void draw_Vine(){
+    ALLEGRO_BITMAP *vine = al_load_bitmap("../src/ui/img/sprites/enviroment/vine2.png");
+    ALLEGRO_BITMAP *leaf = al_load_bitmap("../src/ui/img/sprites/enviroment/vine_leaf2.png");
     int i = 0;
+    int parity = 0;
     for (i = 5; i < 21; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(0), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(0), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(0), calc_Ypos(i), 0);
+            parity = 1;
+        }
+
     }
     for (i = 10; i < 13; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(2), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(2), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(2), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 16; i < 21; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(2), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(2), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(2), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 5; i < 18; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(4), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(4), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(4), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 0; i < 2; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(6), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(6), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(6), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 5; i < 14; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(6), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(6), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(6), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 6; i < 18; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(8), calc_Ypos(i), 0);
+
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(8), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(8), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 6; i < 16; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(10), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(10), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(10), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 0; i < 11; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(12), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(12), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(12), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 0; i < 11; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(14), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(14), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(14), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 14; i < 18; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(12), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(12), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(12), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
     for (i = 14; i < 18; i++){
-        bitmap = alternate_Vine();
-        al_draw_bitmap(bitmap, calc_Xpos(14), calc_Ypos(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calc_Xpos(14), calc_Ypos(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calc_Xpos(14), calc_Ypos(i), 0);
+            parity = 1;
+        }
     }
-    bitmap = al_load_bitmap("../img/sprites/enviroment/vine_leaf2.png");
-    al_draw_bitmap(bitmap, calc_Xpos(9), calc_Ypos(0), 0);
+    al_draw_bitmap(leaf, calc_Xpos(9), calc_Ypos(0), 0);
 }
 
 /* -----------------------------------------------------------------------

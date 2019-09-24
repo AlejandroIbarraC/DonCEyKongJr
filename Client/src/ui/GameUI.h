@@ -38,7 +38,7 @@ static volatile char* Server_IP_ADDR = "127.0.0.1";
 static volatile int server_port = 0;
 static int flag = 0;
 
-static int alternate = 0; // For vine drawing
+
 
 // Inits the screen components
 void init_Matrix();
@@ -46,9 +46,7 @@ void init_Matrix();
 int draw_Matrix(int key_code, ALLEGRO_DISPLAY* display, ALLEGRO_BITMAP* bitmap);
 void draw_Floor();
 void draw_Water();
-
 void draw_Vine();
-ALLEGRO_BITMAP* alternate_Vine();
 
 void draw_DKJr();
 void draw_Croc();
