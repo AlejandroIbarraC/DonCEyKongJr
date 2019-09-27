@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a52b8eec-199b-4107-9efb-3ec7d61c321e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/jackson_annotations_2_10_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/jackson_annotations_2_10_0_pr2__2_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/DonceyKongJr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-annotations-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-core-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-databind-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/json-20190722.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Crocodile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Sala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Serializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Sockets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/MainWindowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/mainWindow.fxml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Esteban Alvarado\Documents\TEC\2S 2019\Lenguajes-Compiladore-Interpretes\1. Lenguajes\Proyectos\Proyecto 3\CE 3104-Donkey-Kong-JR\_server\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RQIHPODNmumDnkQV3tVIBoUHut" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a52b8eec-199b-4107-9efb-3ec7d61c321e" name="Default Changelist" comment="" />
+      <created>1569592806557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569592806557</updated>
+      <workItem from="1569592817424" duration="6967000" />
+      <workItem from="1569601490288" duration="319000" />
+      <workItem from="1569603543119" duration="469000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../../../.." />
+    </ignored-roots>
+  </component>
+</project>

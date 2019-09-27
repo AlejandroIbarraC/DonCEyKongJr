@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="DonceyKongJr" targetName="DonceyKongJr" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33c12f26-72c1-4448-b2cc-0ca3135da18c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/jackson_annotations_2_10_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/jackson_annotations_2_10_0_pr2__2_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/DonceyKongJr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-annotations-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-core-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-databind-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/json-20190722.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Crocodile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Sala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Serializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Sockets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/MainWindowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/mainWindow.fxml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Esteban Alvarado\Documents\TEC\2S 2019\Lenguajes-Compiladore-Interpretes\1. Lenguajes\Proyectos\Proyecto 3\CE 3104-Donkey-Kong-JR\client\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="XWWyBTFq" />
+  </component>
+  <component name="ProjectId" id="1RQacQh2ai3nAX6D6u2S8qSw8WF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DonceyKongJr" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DonceyKongJr" TARGET_NAME="DonceyKongJr" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DonceyKongJr" RUN_TARGET_NAME="DonceyKongJr">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33c12f26-72c1-4448-b2cc-0ca3135da18c" name="Default Changelist" comment="" />
+      <created>1569601852574</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569601852574</updated>
+      <workItem from="1569601854361" duration="97000" />
+      <workItem from="1569602006359" duration="1665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
