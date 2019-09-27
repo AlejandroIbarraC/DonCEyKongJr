@@ -1,6 +1,4 @@
-//
-// Created by Kevin Cordero Zuniga on 9/22/2019.
-//
+
 
 #include "Serializer.h"
 

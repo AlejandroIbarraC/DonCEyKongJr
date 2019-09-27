@@ -1,6 +1,3 @@
-//
-// Created by josed on 18/9/2019.
-//
 
 #include "gui.h"
 #include "../logic/Game.h"
@@ -22,11 +19,14 @@ int dibujarMatriz(int direction, ALLEGRO_DISPLAY* display) {
     }
 
     al_hold_bitmap_drawing(true);
+
+    dibujarAgua();
+    dibujarPiso();
+    dibujarPlataformas();
+    dibujarLiana();
     dibujarKremlin();
     dibujarFruta();
     dibujarDKJr();
-    dibujarPiso();
-    dibujarLiana();
     dibujarMarioyDK();
 
     al_hold_bitmap_drawing(false);
@@ -51,8 +51,17 @@ int dibujarMatriz(int direction, ALLEGRO_DISPLAY* display) {
     return 0;
 }
 
+void dibujarAgua(){
+    bitmap = al_load_bitmap("../src/imagenes/water.png");
+    int j = 0;
+    for (j = 0; j < 16; j++){
+        al_draw_bitmap(bitmap, calculateXposition(j), calculateYposition(23), 0);
+    }
+}
+
 void dibujarPiso(){
-    bitmap = al_load_bitmap("../src/imagenes/floor.png");
+    bitmap = al_load_bitmap("../src/imagenes/platform.png");
+    ALLEGRO_BITMAP *floor = al_load_bitmap("../src/imagenes/floor.png");
     int j = 0;
     for (j = 4; j < 6; j++){
         al_draw_bitmap(bitmap, calculateXposition(j), calculateYposition(2), 0);
@@ -70,61 +79,151 @@ void dibujarPiso(){
     for (j = 2; j < 4; j++){
         al_draw_bitmap(bitmap, calculateXposition(j), calculateYposition(15), 0);
     }
-    for (j = 12; j < 15; j++){
-        al_draw_bitmap(bitmap, calculateXposition(j), calculateYposition(20), 0);
-    }
-    al_draw_bitmap(bitmap, calculateXposition(4), calculateYposition(21), 0);
-    for (j = 9; j < 12; j++){
-        al_draw_bitmap(bitmap, calculateXposition(j), calculateYposition(21), 0);
-    }
-    for (j = 5; j < 9; j++){
-        al_draw_bitmap(bitmap, calculateXposition(j), calculateYposition(22), 0);
-    }
+
+
     for (j = 0; j < 3; j++){
-        al_draw_bitmap(bitmap, calculateXposition(j), calculateYposition(23), 0);
+        al_draw_bitmap(floor, calculateXposition(j), calculateYposition(22), 0);
+
     }
 }
 
+void dibujarPlataformas(){
+    ALLEGRO_BITMAP *gndR = al_load_bitmap("../src/imagenes/groundright.png");
+    ALLEGRO_BITMAP *gndL = al_load_bitmap("../src/imagenes/groundleft.png");
+    int j = 0;
+
+    al_draw_bitmap(gndR,calculateXposition(6), calculateYposition(20), 0);
+    al_draw_bitmap(gndL,calculateXposition(5), calculateYposition(20), 0);
+
+
+    al_draw_bitmap(gndR,calculateXposition(9), calculateYposition(21), 0);
+    al_draw_bitmap(gndL,calculateXposition(8), calculateYposition(21), 0);
+
+    al_draw_bitmap(gndR,calculateXposition(12), calculateYposition(20), 0);
+    al_draw_bitmap(gndL,calculateXposition(11), calculateYposition(20), 0);
+
+    al_draw_bitmap(gndR,calculateXposition(15), calculateYposition(19), 0);
+    al_draw_bitmap(gndL,calculateXposition(14), calculateYposition(19), 0);
+
+}
+
+
 void dibujarLiana(){
-    bitmap = al_load_bitmap("../src/imagenes/vine.png");
+    ALLEGRO_BITMAP *vine = al_load_bitmap("../src/imagenes/vine2.png");
+    ALLEGRO_BITMAP *leaf = al_load_bitmap("../src/imagenes/vine_leaf2.png");
     int i = 0;
+    int parity = 0;
     for (i = 5; i < 21; i++){
-        al_draw_bitmap(bitmap, calculateXposition(0), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(0), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(0), calculateYposition(i), 0);
+            parity = 1;
+        }
+
     }
     for (i = 10; i < 13; i++){
-        al_draw_bitmap(bitmap, calculateXposition(2), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(2), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(2), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 16; i < 21; i++){
-        al_draw_bitmap(bitmap, calculateXposition(2), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(2), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(2), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 5; i < 18; i++){
-        al_draw_bitmap(bitmap, calculateXposition(4), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(4), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(4), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 0; i < 2; i++){
-        al_draw_bitmap(bitmap, calculateXposition(6), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(6), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(6), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 5; i < 14; i++){
-        al_draw_bitmap(bitmap, calculateXposition(6), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(6), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(6), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 6; i < 18; i++){
-        al_draw_bitmap(bitmap, calculateXposition(8), calculateYposition(i), 0);
+
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(8), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(8), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
-    al_draw_bitmap(bitmap, calculateXposition(9), calculateYposition(0), 0);
     for (i = 6; i < 16; i++){
-        al_draw_bitmap(bitmap, calculateXposition(10), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(10), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(10), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 0; i < 11; i++){
-        al_draw_bitmap(bitmap, calculateXposition(12), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(12), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(12), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 0; i < 11; i++){
-        al_draw_bitmap(bitmap, calculateXposition(14), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(14), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(14), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 14; i < 18; i++){
-        al_draw_bitmap(bitmap, calculateXposition(12), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(12), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(12), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
     for (i = 14; i < 18; i++){
-        al_draw_bitmap(bitmap, calculateXposition(14), calculateYposition(i), 0);
+        if(parity){
+            al_draw_bitmap(leaf, calculateXposition(14), calculateYposition(i), 0);
+            parity = 0;
+        }else{
+            al_draw_bitmap(vine, calculateXposition(14), calculateYposition(i), 0);
+            parity = 1;
+        }
     }
+    al_draw_bitmap(leaf, calculateXposition(9), calculateYposition(0), 0);
 }
 
 void dibujarDKJr(){

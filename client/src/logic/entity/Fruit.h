@@ -1,6 +1,4 @@
-//
-// Created by Kevin Cordero Zúñiga on 9/18/2019.
-//
+
 
 #ifndef DONCEYKONGJR_FRUIT_H
 #define DONCEYKONGJR_FRUIT_H

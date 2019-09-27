@@ -1,6 +1,4 @@
-//
-// Created by Kevin Cordero Zúñiga on 9/17/2019.
-//
+
 #include <allegro5/allegro.h>
 #include "allegro5/allegro_image.h"
 #include <allegro5/allegro_primitives.h>
@@ -28,10 +26,9 @@ int init_game() {
 
     display = al_create_display(largoPantalla, anchoPantalla);
 
-
     al_flip_display();
 
-    timer = al_create_timer(1.0 / 30);
+    timer = al_create_timer(1.0 / 20);
     event_queue = al_create_event_queue();
     al_register_event_source(event_queue, al_get_keyboard_event_source());
     al_register_event_source(event_queue, al_get_timer_event_source(timer));
@@ -40,6 +37,7 @@ int init_game() {
 }
 
 int run(){
+
     int draw = 0;
     int action = -1;
     while(!done) {

@@ -1,6 +1,4 @@
-//
-// Created by Kevin Cordero Zúñiga on 9/18/2019.
-//
+
 
 #ifndef DONCEYKONGJR_KREMLIN_H
 #define DONCEYKONGJR_KREMLIN_H

@@ -1,41 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="392.0" maxWidth="1054.0" minHeight="392.0" minWidth="1054.0" prefHeight="392.0" prefWidth="1054.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainWindowController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="792.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MainWindowController">
    <children>
-      <Button fx:id="beginServerButton" layoutX="935.0" layoutY="346.0" mnemonicParsing="false" onAction="#beginServer" text="Iniciar Server" />
-      <Label layoutX="464.0" layoutY="22.0" text="DONCEY KONG JR." />
-      <Label layoutX="93.0" layoutY="79.0" text="Crear Kremlin" />
-      <ChoiceBox fx:id="kremlinChoiceBox" layoutX="79.0" layoutY="109.0" prefHeight="21.0" prefWidth="116.0" />
-      <Button fx:id="createKremlinButton" layoutX="109.0" layoutY="244.0" mnemonicParsing="false" onAction="#createKremlin" text="Crear" />
-      <Label layoutX="490.0" layoutY="79.0" text="Crear Fruta" />
-      <TextField fx:id="fruitPointsEntry" layoutX="532.0" layoutY="153.0" prefHeight="31.0" prefWidth="64.0" />
-      <TextField fx:id="createFruitIEntry" layoutX="532.0" layoutY="197.0" prefHeight="31.0" prefWidth="64.0" />
-      <TextField fx:id="createFruitJEntry" layoutX="532.0" layoutY="240.0" prefHeight="31.0" prefWidth="64.0" />
-      <Label layoutX="450.0" layoutY="158.0" text="Puntos:" />
-      <Label layoutX="457.0" layoutY="202.0" text="Fila:" />
-      <Label layoutX="445.0" layoutY="245.0" text="Columna:" />
-      <Button fx:id="createFruitButton" layoutX="504.0" layoutY="281.0" mnemonicParsing="false" onAction="#createFruit" text="Crear" />
-      <ChoiceBox fx:id="playerChoiceBox" layoutX="162.0" layoutY="346.0" prefHeight="31.0" prefWidth="126.0" />
-      <Label layoutX="26.0" layoutY="351.0" text="Elije un jugador:" />
-      <Label layoutX="833.0" layoutY="79.0" text="Eliminar Fruta" />
-      <Label layoutX="825.0" layoutY="114.0" text="Fila:" />
-      <Label layoutX="807.0" layoutY="157.0" text="Columna:" />
-      <TextField fx:id="deleteFruitIEntry" layoutX="886.0" layoutY="109.0" prefHeight="31.0" prefWidth="64.0" />
-      <TextField fx:id="deleteFruitJEntry" layoutX="886.0" layoutY="152.0" prefHeight="31.0" prefWidth="64.0" />
-      <Button fx:id="deleteFruitButton" layoutX="848.0" layoutY="196.0" mnemonicParsing="false" onAction="#deleteFruit" text="Borrar" />
-      <Button fx:id="confirmPlayerButton" layoutX="311.0" layoutY="346.0" mnemonicParsing="false" onAction="#confirmPlayer" text="Confirmar" />
-      <Label layoutX="82.0" layoutY="157.0" text="Fila" />
-      <Label layoutX="52.0" layoutY="201.0" text="Columna" />
-      <TextField fx:id="createKremlinIEntry" layoutX="130.0" layoutY="153.0" prefHeight="31.0" prefWidth="64.0" />
-      <TextField fx:id="createKremlinJEntry" layoutX="130.0" layoutY="196.0" prefHeight="31.0" prefWidth="64.0" />
-      <ChoiceBox fx:id="fruitChoiceBox" layoutX="452.0" layoutY="109.0" prefWidth="150.0" />
+      <Button fx:id="acceptConection1Button" layoutX="467.0" layoutY="326.0" mnemonicParsing="false" onAction="#acceptPlayer1" prefHeight="25.0" prefWidth="96.0" text="Connect" />
+      <Label layoutX="254.0" layoutY="25.0" text="DONCEY KONG JR. GAME MANAGER">
+         <font>
+            <Font name="Franklin Gothic Medium" size="19.0" />
+         </font></Label>
+      <Label layoutX="352.0" layoutY="74.0" text="Add Enemy">
+         <font>
+            <Font name="Leelawadee UI Bold" size="12.0" />
+         </font></Label>
+      <ChoiceBox fx:id="kremlinChoiceBox" layoutX="314.0" layoutY="101.0" prefHeight="25.0" prefWidth="141.0" />
+      <Button fx:id="createKremlinButton" layoutX="316.0" layoutY="228.0" mnemonicParsing="false" onAction="#createKremlin" prefHeight="25.0" prefWidth="96.0" text="Add">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="120.0" layoutY="74.0" text="Add Fruit">
+         <font>
+            <Font name="Leelawadee UI Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="fruitPointsEntry" layoutX="69.0" layoutY="225.0" prefHeight="31.0" prefWidth="96.0" />
+      <TextField fx:id="createFruitIEntry" layoutX="69.0" layoutY="141.0" prefHeight="31.0" prefWidth="96.0" />
+      <TextField fx:id="createFruitJEntry" layoutX="69.0" layoutY="181.0" prefHeight="31.0" prefWidth="96.0" />
+      <Label layoutX="183.0" layoutY="232.0" text="Points" />
+      <Label layoutX="184.0" layoutY="148.0" text="Row" />
+      <Label layoutX="182.0" layoutY="188.0" text="Column" />
+      <Button fx:id="createFruitButton" layoutX="69.0" layoutY="267.0" mnemonicParsing="false" onAction="#createFruit" prefHeight="25.0" prefWidth="96.0" text="Add">
+         <font>
+            <Font name="Leelawadee UI Bold" size="12.0" />
+         </font></Button>
+      <ChoiceBox fx:id="playerChoiceBox" layoutX="156.0" layoutY="388.0" prefHeight="31.0" prefWidth="126.0" />
+      <Label layoutX="156.0" layoutY="364.0" text="Game:" />
+      <Label layoutX="550.0" layoutY="79.0" text="Remove Fruit">
+         <font>
+            <Font name="Leelawadee UI Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="648.0" layoutY="125.0" text="Row" />
+      <Label layoutX="646.0" layoutY="166.0" text="Column" />
+      <TextField fx:id="deleteFruitIEntry" layoutX="540.0" layoutY="118.0" prefHeight="31.0" prefWidth="96.0" />
+      <TextField fx:id="deleteFruitJEntry" layoutX="540.0" layoutY="159.0" prefHeight="31.0" prefWidth="96.0" />
+      <Button fx:id="deleteFruitButton" layoutX="540.0" layoutY="211.0" mnemonicParsing="false" onAction="#deleteFruit" prefHeight="25.0" prefWidth="96.0" text="Remove">
+         <font>
+            <Font name="Leelawadee UI Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="confirmPlayerButton" layoutX="282.0" layoutY="388.0" mnemonicParsing="false" onAction="#confirmPlayer" prefHeight="31.0" prefWidth="34.0" text="OK" />
+      <Label layoutX="429.0" layoutY="148.0" text="Row" />
+      <Label layoutX="420.0" layoutY="188.0" text="Column" />
+      <TextField fx:id="createKremlinIEntry" layoutX="316.0" layoutY="142.0" prefHeight="31.0" prefWidth="96.0" />
+      <TextField fx:id="createKremlinJEntry" layoutX="316.0" layoutY="181.0" prefHeight="31.0" prefWidth="96.0" />
+      <ChoiceBox fx:id="fruitChoiceBox" layoutX="69.0" layoutY="101.0" prefWidth="150.0" />
+      <Button fx:id="searchConectionsButton" layoutX="545.0" layoutY="267.0" mnemonicParsing="false" onAction="#searchConections" text="Search Connections">
+         <font>
+            <Font name="Leelawadee UI Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="acceptConection2Button" layoutX="626.0" layoutY="326.0" mnemonicParsing="false" onAction="#acceptPlayer2" prefHeight="25.0" prefWidth="96.0" text="Connect" />
+      <Label layoutX="504.0" layoutY="300.0" text="Game 1" />
+      <Label layoutX="654.0" layoutY="300.0" text="Game 2" />
+      <Button fx:id="refuseConection1Button" layoutX="567.0" layoutY="326.0" mnemonicParsing="false" onAction="#refusePlayer" text="X" />
+      <Button fx:id="refuseConection2Button" layoutX="726.0" layoutY="326.0" mnemonicParsing="false" onAction="#refusePlayer" text="X" />
+      <Label layoutX="467.0" layoutY="356.0" text="Connected to:" />
+      <Label fx:id="ipLabel" layoutX="869.0" layoutY="351.0" prefHeight="21.0" prefWidth="150.0" />
+      <Button fx:id="beginGame1Button" layoutX="465.0" layoutY="376.0" mnemonicParsing="false" onAction="#beginPlayer1" prefHeight="25.0" prefWidth="126.0" text="Start" />
+      <Button fx:id="beginGame2Button" layoutX="625.0" layoutY="376.0" mnemonicParsing="false" onAction="#beginPlayer2" prefHeight="25.0" prefWidth="126.0" text="Start" />
+      <Button layoutX="23.0" layoutY="391.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="25.0" prefWidth="53.0" text="Exit" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Leelawadee UI Bold" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

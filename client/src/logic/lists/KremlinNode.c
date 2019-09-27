@@ -1,6 +1,3 @@
-//
-// Created by Kevin Cordero Zúñiga on 9/18/2019.
-//
 
 #include "KremlinNode.h"
 #include <stdlib.h>

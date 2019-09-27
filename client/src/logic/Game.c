@@ -1,6 +1,4 @@
-//
-// Created by Kevin Cordero Zúñiga on 9/18/2019.
-//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "Game.h"
@@ -12,27 +10,36 @@
  * @param gameMatrix
  */
 void initializeGameMatrix(int* gameMatrix[24][16]){
-    for (int i = 0; i < rows; i++){
-        for (int j = 0; j < columns; j++){
-            if ((i == 20 && (j >= 12 && j <= 14)) || (i == 21 && (j == 4 || (j >= 9 && j <= 11))) || (i == 22 && (j >= 5 && j <= 8)) || (i == 23 && j <= 2)){
-                gameMatrix[i][j] = (int *) tree;
-            }else if ((i == 2 && (j >= 4 && j <= 5)) || (i == 4 && j <= 8) || (i == 5 && (j >= 8 && j <= 11)) || (i == 9 && j == 2) || (i == 13 && j >= 11) || (i == 15 && (j >= 2 && j <= 3))){
-                gameMatrix[i][j] = (int *) tile;
-            }else if ((j == 0 && (i >= 5 && i <= 20)) || (j == 2 && ((i >= 10 && i <= 12) || (i >= 16 && i <= 20))) || (j == 4 && (i >= 5 && i <= 17)) || (j == 6 && (i <= 1 || (i >= 5 && i <= 13))) || (j == 8 && (i >= 7 && i <= 17)) || (j == 9 && i == 0) || (j == 10 && (i >= 6 && i <= 15)) || (j == 12 && (i <= 10 || (i >= 14 && i <= 17))) || (j == 14 && (i <= 10 || (i >= 14 && i <= 17)))){
-                gameMatrix[i][j] = (int *) vine;
-            }else if (i == 22 && j == 0){
-                gameMatrix[i][j] = (int *) dkjrRight1;
-            }else if ((i >= 1 && i <= 3) && (j >= 0 && j <= 2)){
-                gameMatrix[i][j] = (int*) dk;
-            }else if (i == 3 && j == 3){
-                gameMatrix[i][j] = (int*) mario;
-            }else if (i == 0 && j == 7){
-                gameMatrix[i][j] = (int*) key;
-            }else{
-                gameMatrix[i][j] = (int *) nothing;
-            }
-        }
+    char buffer[1024] ;
+    char path[1000] = "..\\src\\logic\\data\\matrix.csv";
+    char *record,*line;
+
+    FILE *fstream;
+    fstream = fopen(path,"r");
+    if(fstream == NULL)
+    {
+        perror("\n file opening failed ");
+        goto end;
     }
+
+    for(int i = 0 ; i < 24; i++){
+        line=fgets(buffer,sizeof(buffer),fstream);
+        record = strtok(line,",");
+        const char *rec = record;
+
+        for(int j = 0;j < 16; j++){
+            const char *s = record;
+            int val;
+            sscanf(s,"%d",&val);
+            gameMatrix[i][j] = (int*)val;
+            record = strtok(NULL, ",");
+        }
+
+    }
+    fclose(fstream);
+
+    end:
+    return;
 }
 
 /**
@@ -1133,7 +1140,7 @@ void resetDKJrPosition(int* gameMatrix[24][16]){
     int posJ = dkJr.posJ;
     if (dkJr.inVine == 1){
         gameMatrix[posI][posJ] = (int*) vine;
-        posI = 22;
+        posI = 21;
         posJ = 0;
         dkJr.posI = posI;
         dkJr.posJ = posJ;
@@ -1141,7 +1148,7 @@ void resetDKJrPosition(int* gameMatrix[24][16]){
         dkJr.inVine = 0;
     }else{
         gameMatrix[posI][posJ] = (int*) nothing;
-        posI = 22;
+        posI = 21;
         posJ = 0;
         dkJr.posI = posI;
         dkJr.posJ = posJ;

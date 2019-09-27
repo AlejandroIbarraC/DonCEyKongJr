@@ -47,15 +47,9 @@ static void conectarseJugador (GtkWidget *widget){
         if (a == 4287872){
             fpoints = mainAllegro(8082);
             printf("los puntos son %d",fpoints);
-           // char* mensajePuntos=(char *)fpoints;
-            //gtk_label_set_text(GTK_LABEL (label),  mensajePuntos);
-
         }else{
             fpoints = mainAllegro(8083);
             printf("los puntos son %d",fpoints);
-
-           // char* mensajePuntos=(char *)fpoints;
-            //gtk_label_set_text(GTK_LABEL (label),  mensajePuntos);
         }
     } else{
         printf("Me rechazaron");
@@ -104,10 +98,10 @@ int main( int argc, char *argv[]){
     //Aqui lo que hacemos es crear los botones y el entry.Ademas de eso creamos  la imagen con el fondo  establecido
     label = gtk_label_new("");
 
-    button = gtk_button_new_with_label ("Conectarse Como Jugador");
-    button2 = gtk_button_new_with_label ("Conectarse Como Observador");
+    button = gtk_button_new_with_label ("JUGAR");
+    button2 = gtk_button_new_with_label ("OBSERVAR");
     entry= gtk_entry_new ();
-    image = gtk_image_new_from_file("../src/imagenes/background.png");
+    image = gtk_image_new_from_file("../src/imagenes/background1.png");
     //Aqui asociamos un metodo con el boton cuando se realiza en el la accion de clicked
     g_signal_connect (button, "clicked", G_CALLBACK(conectarseJugador), NULL);
     g_signal_connect (button2, "clicked", G_CALLBACK(conectarseObservador), NULL);
@@ -117,10 +111,9 @@ int main( int argc, char *argv[]){
     gtk_layout_put(GTK_LAYOUT(layout), image, 0, 0);
 
     gtk_entry_set_max_length (GTK_ENTRY (entry),0);
-    gtk_layout_put(GTK_LAYOUT(layout), button2, 130, 445);
-    gtk_layout_put(GTK_LAYOUT(layout), button, 140, 390);
-
-    gtk_layout_put(GTK_LAYOUT(layout), entry, 475, 290);
+    gtk_layout_put(GTK_LAYOUT(layout), button2, 510, 450);
+    gtk_layout_put(GTK_LAYOUT(layout), button, 200, 450);
+    gtk_layout_put(GTK_LAYOUT(layout), entry, 535, 290);
     gtk_layout_put(GTK_LAYOUT(layout), label, 475, 320);
 
     gtk_widget_set_size_request(button, 80, 35);

@@ -1,6 +1,3 @@
-//
-// Created by josed on 18/9/2019.
-//
 
 #ifndef DONCEYKONGJR_GUI_H
 #define DONCEYKONGJR_GUI_H
@@ -35,6 +32,8 @@ void dibujarLiana();
 void dibujarDKJr();
 void dibujarKremlin();
 void dibujarFruta();
+void dibujarAgua();
+void dibujarPlataformas();
 void dibujarMarioyDK();
 int calculateXposition(int i);
 int calculateYposition(int j);

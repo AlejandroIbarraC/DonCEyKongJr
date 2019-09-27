@@ -1,6 +1,4 @@
-//
-// Created by Kevin Cordero Zuniga on 9/22/2019.
-//
+
 
 #ifndef DONCEYKONGJR_ALLEGROWINDOW_H
 #define DONCEYKONGJR_ALLEGROWINDOW_H
@@ -13,7 +11,6 @@ static int anchoPantalla = 700;
 static ALLEGRO_DISPLAY* display = NULL;
 static ALLEGRO_EVENT_QUEUE* event_queue = NULL;
 static ALLEGRO_TIMER* timer = NULL;
-static ALLEGRO_BITMAP  *background = NULL;
 static bool redraw;
 static bool done;
 static int points = 0;
