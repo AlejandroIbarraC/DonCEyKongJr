@@ -50,7 +50,6 @@ void initializeGameMatrix(int* gameMatrix[24][16]){
  */
 int updateGameMatrix(int direction, int* gameMatrix[24][16]){
     if (dkJr.lives <= 0){
-        printf("El juego ha terminado");
         return dkJr.currentPoints;
     }if ((dkJr.posI == 0 && dkJr.posJ == 7) || (dkJr.posI == 1 && dkJr.posJ == 4) || (dkJr.posI == 1 && dkJr.posJ == 5)){
         dkJr.lives++;

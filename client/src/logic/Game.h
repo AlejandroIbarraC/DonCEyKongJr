@@ -56,7 +56,7 @@ static int key = 7;
 
 static int rows = 24;
 static int columns = 16;
-static struct DKJr dkJr = {1, 21, 0, 3, 0, 0, 0, 0, 0, 0, 0};
+static struct DKJr dkJr = {1, 21, 0, 3, 0, 1, 0, 0, 0, 0, 0};
 
 void initializeGameMatrix(int* gameMatrix[24][16]);
 int updateGameMatrix(int direction, int* gameMatrix[24][16]);

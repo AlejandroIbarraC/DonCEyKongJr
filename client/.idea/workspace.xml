@@ -34,25 +34,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33c12f26-72c1-4448-b2cc-0ca3135da18c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../_server/.idea/artifacts/server_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_server/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../_server/src/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../_server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_server/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logic/Game.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/Game.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logic/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/data/matrix.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/data/matrix.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/entity/Kremlin.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/entity/Crocodile.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/lists/KremlinNode.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/lists/CrocodileNode.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/lists/KremlinNode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/lists/CrocodileNode.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket/Serializer.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket/Serializer.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/socket/Serializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/socket/Serializer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/AllegroWindow.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/AllegroWindow.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/AllegroWindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/AllegroWindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/gui.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/gui.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/gui.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +100,7 @@
       <workItem from="1569601854361" duration="97000" />
       <workItem from="1569602006359" duration="1665000" />
       <workItem from="1569629031321" duration="2237000" />
-      <workItem from="1569642865047" duration="2458000" />
+      <workItem from="1569642865047" duration="3450000" />
     </task>
     <servers />
   </component>
