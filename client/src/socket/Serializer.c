@@ -101,8 +101,8 @@ int isFruit(const char* json){
  * @param json
  * @return
  */
-struct Crocodile* deserializeKremlin(const char *json){
-    struct Crocodile* kremlin;
+struct Kremlin* deserializeKremlin(const char *json){
+    struct Kremlin* kremlin;
     cJSON* id;
     cJSON* posI;
     cJSON* posJ;

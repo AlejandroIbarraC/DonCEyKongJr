@@ -34,9 +34,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33c12f26-72c1-4448-b2cc-0ca3135da18c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/Game.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/Game.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logic/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/jackson_annotations_2_10_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/libraries/jackson_annotations_2_10_0_pr2__2_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/DonceyKongJr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-annotations-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-core-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/jackson-databind-2.10.0.pr2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/libraries/json-20190722.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Crocodile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Fruit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/logic/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Sala.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Serializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/socket/Sockets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/MainWindowController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/ui/mainWindow.fxml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,8 +124,6 @@
       <updated>1569601852574</updated>
       <workItem from="1569601854361" duration="97000" />
       <workItem from="1569602006359" duration="1665000" />
-      <workItem from="1569629031321" duration="2237000" />
-      <workItem from="1569642865047" duration="3450000" />
     </task>
     <servers />
   </component>

@@ -25,7 +25,6 @@ static volatile int port = 0;
 static int flag = 0;
 
 /// Inicia los componestes de la pantalla
-void setIp(char *ip);
 void init_matrix();
 int dibujarMatriz(int direction, ALLEGRO_DISPLAY* display);
 void dibujarPiso();

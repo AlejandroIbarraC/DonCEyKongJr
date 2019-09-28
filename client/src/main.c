@@ -32,8 +32,7 @@ static int fpoints = 0;
 static void conectarseJugador (GtkWidget *widget){
     g_print("%s\n", gtk_entry_get_text(GTK_ENTRY(entry)));
     const gchar *entry_text;
-    serverIp = gtk_entry_get_text(GTK_ENTRY(entry));
-    entry_text = gtk_entry_get_text(GTK_ENTRY(entry));
+    entry_text = gtk_entry_get_text (GTK_ENTRY (entry));
     enviar(serverIp,8081, entry_text);
     sleep(1);
     enviar(serverIp,8081,"jjjjjjjjjjjjjjjjjjjjjj");
@@ -46,10 +45,10 @@ static void conectarseJugador (GtkWidget *widget){
         int a = (int) hola;
         printf("%d",a);
         if (a == 4287872){
-            fpoints = mainAllegro(serverIp,8082);
+            fpoints = mainAllegro(8082);
             printf("los puntos son %d",fpoints);
         }else{
-            fpoints = mainAllegro(serverIp,8083);
+            fpoints = mainAllegro(8083);
             printf("los puntos son %d",fpoints);
         }
     } else{
@@ -64,7 +63,6 @@ static void conectarseJugador (GtkWidget *widget){
 static void conectarseObservador (GtkWidget *widget){
     g_print("%s\n", gtk_entry_get_text(GTK_ENTRY(entry)));
     const gchar *entry_text;
-    serverIp = gtk_entry_get_text (GTK_ENTRY (entry));
     entry_text = gtk_entry_get_text (GTK_ENTRY (entry));
     enviar(serverIp,8081, entry_text);
     sleep(1);
@@ -78,9 +76,9 @@ static void conectarseObservador (GtkWidget *widget){
         int a = (int) hola;
         printf("%d",a);
         if (a == 4287872){
-            fpoints = mainAllegro(serverIp,8082);
+            fpoints = mainAllegro(8082);
         }else{
-            fpoints = mainAllegro(serverIp, 8083);
+            fpoints = mainAllegro(8083);
         }
     } else{
         printf("Me rechazaron");
