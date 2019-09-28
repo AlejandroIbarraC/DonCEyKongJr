@@ -1,6 +1,6 @@
 
 
-#include "../logic/entity/Kremlin.h"
+#include "entity/Crocodile.h"
 #include "entity/DKJr.h"
 
 #ifndef DONCEYKONGJR_GAME_H
@@ -62,9 +62,9 @@ void initializeGameMatrix(int* gameMatrix[24][16]);
 int updateGameMatrix(int direction, int* gameMatrix[24][16]);
 void updateFruits(int* gameMatrix[24][16]);
 void updateKremlins(int* gameMatrix[24][16]);
-void searchVineForKremlin(struct Kremlin* kremlin, int* gameMatrix[24][16]);
-void moveKremlinInVine(struct Kremlin* kremlin, int* gameMatrix[24][16]);
-void makeKremlinFall(struct Kremlin* kremlin, int* gameMatrix[24][16]);
+void searchVineForKremlin(struct Crocodile* kremlin, int* gameMatrix[24][16]);
+void moveKremlinInVine(struct Crocodile* kremlin, int* gameMatrix[24][16]);
+void makeKremlinFall(struct Crocodile* kremlin, int* gameMatrix[24][16]);
 void moveDKJrHorizontal(int direction, int* gameMatrix[24][16]);
 void moveDKJrVertical(int direction, int* gameMatrix[24][16]);
 void moveDKJrUpAir(int* gameMatrix[24][16]);

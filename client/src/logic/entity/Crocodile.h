@@ -1,9 +1,9 @@
 
 
-#ifndef DONCEYKONGJR_KREMLIN_H
-#define DONCEYKONGJR_KREMLIN_H
+#ifndef DONCEYKONGJR_CROCODILE_H
+#define DONCEYKONGJR_CROCODILE_H
 
-struct Kremlin{
+struct Crocodile{
     int id;
     int posI;
     int posJ;
@@ -17,4 +17,4 @@ struct Kremlin{
     int falling;
 };
 
-#endif //DONCEYKONGJR_KREMLIN_H
+#endif //DONCEYKONGJR_CROCODILE_H

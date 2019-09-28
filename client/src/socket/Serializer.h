@@ -5,13 +5,13 @@
 
 // Libraries
 #include "cJson.h"
-#include "../logic/entity/Kremlin.h"
+#include "../logic/entity/Crocodile.h"
 #include "../logic/entity/Fruit.h"
 #include <stdio.h>
 
 char* serializeMatrix(int matrix[24][16]);
 int isKremlin(const char* json);
-struct Kremlin* deserializeKremlin(const char *json);
+struct Crocodile* deserializeKremlin(const char *json);
 int isFruit(const char* json);
 struct Fruit* deserializeFruit(const char *json);
 

@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "Game.h"
 #include "lists/FruitNode.h"
-#include "lists/KremlinNode.h"
+#include "lists/CrocodileNode.h"
 
 /**
  * Metodo para iniciar matriz
@@ -49,7 +49,8 @@ void initializeGameMatrix(int* gameMatrix[24][16]){
  * @return
  */
 int updateGameMatrix(int direction, int* gameMatrix[24][16]){
-    if (dkJr.lives < 0){
+    if (dkJr.lives <= 0){
+        printf("El juego ha terminado");
         return dkJr.currentPoints;
     }if ((dkJr.posI == 0 && dkJr.posJ == 7) || (dkJr.posI == 1 && dkJr.posJ == 4) || (dkJr.posI == 1 && dkJr.posJ == 5)){
         dkJr.lives++;
@@ -162,8 +163,8 @@ void updateFruits(int* gameMatrix[24][16]){
  * @param gameMatrix
  */
 void updateKremlins(int* gameMatrix[24][16]){
-    struct KremlinNode* kremlinNode = returnKremlinHead();
-    struct Kremlin* kremlin;
+    struct CrocodileNode* kremlinNode = returnKremlinHead();
+    struct Crocodile* kremlin;
     while (kremlinNode != NULL){
         kremlin = kremlinNode->kremlin;
         if (kremlin->onScreen == 0){
@@ -226,7 +227,7 @@ void updateKremlins(int* gameMatrix[24][16]){
  * @param kremlin
  * @param gameMatrix
  */
-void searchVineForKremlin(struct Kremlin* kremlin, int* gameMatrix[24][16]){
+void searchVineForKremlin(struct Crocodile* kremlin, int* gameMatrix[24][16]){
     int posI = kremlin->posI;
     int posJ = kremlin->posJ;
     kremlin->previousI = posI;
@@ -327,7 +328,7 @@ void searchVineForKremlin(struct Kremlin* kremlin, int* gameMatrix[24][16]){
  * @param kremlin
  * @param gameMatrix
  */
-void moveKremlinInVine(struct Kremlin* kremlin, int* gameMatrix[24][16]){
+void moveKremlinInVine(struct Crocodile* kremlin, int* gameMatrix[24][16]){
     int posI = kremlin->posI;
     int posJ = kremlin->posJ;
     kremlin->previousI = posI;
@@ -418,7 +419,7 @@ void moveKremlinInVine(struct Kremlin* kremlin, int* gameMatrix[24][16]){
  * @param kremlin
  * @param gameMatrix
  */
-void makeKremlinFall(struct Kremlin* kremlin, int* gameMatrix[24][16]){
+void makeKremlinFall(struct Crocodile* kremlin, int* gameMatrix[24][16]){
     int posI = kremlin->posI;
     int posJ = kremlin->posJ;
     kremlin->previousI = posI;
@@ -496,7 +497,7 @@ void moveDKJrHorizontal(int direction, int* gameMatrix[24][16]){
             }else if (posJ < columns - 1 && (gameMatrix[posI][posJ + dkJr.velocity] == (int*) 21 || gameMatrix[posI][posJ + dkJr.velocity] == (int*) 22)){
                 dkJr.lives--;
                 dkJr.dead = 1;
-                struct Kremlin* kremlin = findKremlinByPos(posI, posJ + dkJr.velocity);
+                struct Crocodile* kremlin = findKremlinByPos(posI, posJ + dkJr.velocity);
                 kremlin->onScreen = 0;
                 gameMatrix[posI][posJ + dkJr.velocity] = (int*) nothing;
                 break;
@@ -566,7 +567,7 @@ void moveDKJrHorizontal(int direction, int* gameMatrix[24][16]){
             }else if (posJ > 0 && (gameMatrix[posI][posJ - dkJr.velocity] == (int*) 21 || gameMatrix[posI][posJ - dkJr.velocity] == (int*) 22)){
                 dkJr.lives--;
                 dkJr.dead = 1;
-                struct Kremlin* kremlin = findKremlinByPos(posI, posJ - dkJr.velocity);
+                struct Crocodile* kremlin = findKremlinByPos(posI, posJ - dkJr.velocity);
                 kremlin->onScreen = 0;
                 gameMatrix[posI][posJ - dkJr.velocity] = (int*) nothing;
                 break;
@@ -867,7 +868,7 @@ void moveDKJrVertical(int direction, int* gameMatrix[24][16]){
             }else if (posI > 0 && (gameMatrix[posI - dkJr.velocity][posJ] == (int*) 21 || gameMatrix[posI - dkJr.velocity][posJ] == (int*) 22)){
                 dkJr.lives--;
                 dkJr.dead = 1;
-                struct Kremlin* kremlin = findKremlinByPos(posI - dkJr.velocity, posJ);
+                struct Crocodile* kremlin = findKremlinByPos(posI - dkJr.velocity, posJ);
                 kremlin->onScreen = 0;
                 gameMatrix[posI - dkJr.velocity][posJ] = (int*) vine;
                 break;
@@ -909,7 +910,7 @@ void moveDKJrVertical(int direction, int* gameMatrix[24][16]){
             }else if (posI < rows - 1 && (gameMatrix[posI + dkJr.velocity][posJ] == (int*) 21 || gameMatrix[posI + dkJr.velocity][posJ] == (int*) 22)){
                 dkJr.lives--;
                 dkJr.dead = 1;
-                struct Kremlin* kremlin = findKremlinByPos(posI + dkJr.velocity, posJ);
+                struct Crocodile* kremlin = findKremlinByPos(posI + dkJr.velocity, posJ);
                 kremlin->onScreen = 0;
                 gameMatrix[posI + dkJr.velocity][posJ] = (int*) vine;
                 break;

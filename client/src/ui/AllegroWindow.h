@@ -17,6 +17,6 @@ static int points = 0;
 
 int init_game();
 int run();
-int mainAllegro(int port);
+int mainAllegro(char *ip,int port);
 
 #endif //DONCEYKONGJR_ALLEGROWINDOW_H

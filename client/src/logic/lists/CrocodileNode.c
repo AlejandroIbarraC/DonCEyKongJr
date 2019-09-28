@@ -1,13 +1,13 @@
 
-#include "KremlinNode.h"
+#include "CrocodileNode.h"
 #include <stdlib.h>
 
 /**
  * Metodo para insertar un kremlin
  * @param kremlin
  */
-void insertKremlin(struct Kremlin* kremlin){
-    struct KremlinNode* tmp = (struct KremlinNode*) malloc(sizeof(struct KremlinNode));
+void insertKremlin(struct Crocodile* kremlin){
+    struct CrocodileNode* tmp = (struct CrocodileNode*) malloc(sizeof(struct CrocodileNode));
     tmp->kremlin = kremlin;
     tmp->next = kremlinHead;
     kremlinHead = tmp;
@@ -18,8 +18,8 @@ void insertKremlin(struct Kremlin* kremlin){
  * @param id
  */
 void deleteKremlinByID(int id){
-    struct KremlinNode* current = kremlinHead;
-    struct KremlinNode* previous = NULL;
+    struct CrocodileNode* current = kremlinHead;
+    struct CrocodileNode* previous = NULL;
     if (kremlinHead == NULL) {
         return;
     }
@@ -44,8 +44,8 @@ void deleteKremlinByID(int id){
  * @param j
  */
 void deleteKremlinByPos(int i, int j){
-    struct KremlinNode* current = kremlinHead;
-    struct KremlinNode* previous = NULL;
+    struct CrocodileNode* current = kremlinHead;
+    struct CrocodileNode* previous = NULL;
     if (kremlinHead == NULL) {
         return;
     }
@@ -70,8 +70,8 @@ void deleteKremlinByPos(int i, int j){
  * @param j
  * @return el kremlin
  */
-struct Kremlin* findKremlinByPos(int i, int j){
-    struct KremlinNode* tmp = kremlinHead;
+struct Crocodile* findKremlinByPos(int i, int j){
+    struct CrocodileNode* tmp = kremlinHead;
     if (kremlinHead == NULL) {
         return NULL;
     }
@@ -89,6 +89,6 @@ struct Kremlin* findKremlinByPos(int i, int j){
  * Metodo para obtener la cabeza de los kremlins
  * @return cabeza de los kremlins
  */
-struct KremlinNode* returnKremlinHead(){
+struct CrocodileNode* returnKremlinHead(){
     return kremlinHead;
 }

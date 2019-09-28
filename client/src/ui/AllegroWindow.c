@@ -8,7 +8,7 @@
 #include "../logic/Game.h"
 #include "../logic/entity/Fruit.h"
 #include "../logic/lists/FruitNode.h"
-#include "../logic/lists/KremlinNode.h"
+#include "../logic/lists/CrocodileNode.h"
 #include "AllegroWindow.h"
 
 #pragma clang diagnostic push
@@ -92,15 +92,16 @@ int run(){
     return points;
 }
 
-int mainAllegro(int port) {
+int mainAllegro(char *ip,int port) {
    setPort(port);
+   setIp(ip);
    init_game();
    init_matrix();
-   struct Kremlin kremlin1 = {0, 1, 7, -1, -1, 1, 1, 0, 22, 0, 0};
+   struct Crocodile kremlin1 = {0, 1, 7, -1, -1, 1, 1, 0, 22, 0, 0};
    insertKremlin(&kremlin1);
-   struct Kremlin kremlin2 = {1, 20, 8, -1, -1, 1, 1, 0 , 21, 0, 0};
+   struct Crocodile kremlin2 = {1, 20, 8, -1, -1, 1, 1, 0 , 21, 0, 0};
    insertKremlin(&kremlin2);
-   struct Kremlin kremlin3 = {2, 18, 5, -1, -1, 1, 1, 0 , 21, 0, 0};
+   struct Crocodile kremlin3 = {2, 18, 5, -1, -1, 1, 1, 0 , 21, 0, 0};
    insertKremlin(&kremlin3);
    struct Fruit fruit1 = {1, 10, 6, 1, 100, 31, 0, 1};
    insertFruit(&fruit1);

@@ -1,10 +1,14 @@
 
 #include "gui.h"
 #include "../logic/Game.h"
-#include "../logic/lists/KremlinNode.h"
+#include "../logic/lists/CrocodileNode.h"
 #include "../logic/lists/FruitNode.h"
 #include "../socket/Socket.h"
 #include "../socket/Serializer.h"
+
+void setIp(char *ip){
+    serverIp = ip;
+}
 
 void init_matrix(){
     initializeGameMatrix(gameMatrix);
@@ -43,7 +47,7 @@ int dibujarMatriz(int direction, ALLEGRO_DISPLAY* display) {
             insertFruit(fruit);
             receivedJson = NULL;
         }else{
-            struct Kremlin* kremlin = deserializeKremlin(receivedJson);
+            struct Crocodile* kremlin = deserializeKremlin(receivedJson);
             insertKremlin(kremlin);
             receivedJson = NULL;
         }
@@ -321,8 +325,8 @@ void dibujarDKJr(){
 }
 
 void dibujarKremlin(){
-    struct KremlinNode* kremlinNode = returnKremlinHead();
-    struct Kremlin* kremlin;
+    struct CrocodileNode* kremlinNode = returnKremlinHead();
+    struct Crocodile* kremlin;
     int posI;
     int posJ;
     int previousI;
@@ -537,6 +541,7 @@ int calculateYposition(int i){
 
 static void* Func_Thread(ALLEGRO_THREAD *thr, void* arg){
     int a = 1;
+    printf("ip: %s\n",serverIp);
     while (true){
         while (a == 1){
             if (enviar(serverIp, port, serializeMatrix(gameMatrix)) == 0){
