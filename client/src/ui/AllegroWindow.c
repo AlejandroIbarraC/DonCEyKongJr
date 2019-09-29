@@ -63,13 +63,13 @@ int run(){
                 case ALLEGRO_KEY_LEFT:
                     action = 2;
                     break;
-                case ALLEGRO_KEY_SPACE:
+                case ALLEGRO_KEY_W:
                     action = 3;
                     break;
-                case ALLEGRO_KEY_X:
+                case ALLEGRO_KEY_D:
                     action = 5;
                     break;
-                case ALLEGRO_KEY_Z:
+                case ALLEGRO_KEY_A:
                     action = 4;
                     break;
             }

@@ -23,6 +23,7 @@ GtkWidget *entry;
 GtkWidget *label;
 
 static char* serverIp = "127.0.0.1";
+static char* clientIp = "172.20.10.7";
 static int fpoints = 0;
 
 /**
@@ -69,12 +70,12 @@ static void conectarseObservador (GtkWidget *widget){
     enviar(serverIp,8081, entry_text);
     sleep(1);
     enviar(serverIp,8081,"ooooooooooooooooooooooo");
-    char* recieved = escuchar(8081, serverIp);
+    char* recieved = escuchar(8081, clientIp);
     char * respuestaPositiva="si";
     int i = strcmp(recieved, respuestaPositiva);
     if (i == 0){
         char* hola;
-        hola = escuchar(8081, serverIp);
+        hola = escuchar(8081, clientIp);
         int a = (int) hola;
         printf("%d",a);
         if (a == 4287872){

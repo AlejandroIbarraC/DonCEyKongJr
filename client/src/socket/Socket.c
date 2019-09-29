@@ -21,6 +21,8 @@ char* escuchar(int puerto,char* ip){
     int resp,stsize;
     char * respuesta;
 
+
+
     //Inicializamos la DLL de sockets
     resp=WSAStartup(MAKEWORD(1,0),&wsaData);
     if(resp){
@@ -50,7 +52,8 @@ char* escuchar(int puerto,char* ip){
     server.sin_port = htons(puerto);
 
     // Asociamos ip y puerto al socket
-    resp=bind(conn_socket, (struct sockaddr *)&server, sizeof(server));
+
+    resp = bind(conn_socket, (struct sockaddr *)&server, sizeof(server));
     if(resp==SOCKET_ERROR){
         printf("Error al asociar puerto e ip al socket\n");
         closesocket(conn_socket);WSACleanup();
