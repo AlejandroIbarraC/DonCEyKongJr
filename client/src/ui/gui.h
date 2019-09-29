@@ -21,7 +21,7 @@ static int previousIntI = -1;
 static int previousIntJ = -1;
 static volatile char* receivedJson = NULL;
 static volatile char* serverIp = "127.0.0.1";
-static volatile char* clientIp = "172.20.10.7";
+static volatile char* clientIp = "127.0.0.1";
 static volatile int port = 0;
 static int flag = 0;
 

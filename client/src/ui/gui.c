@@ -548,7 +548,7 @@ static void* Func_Thread(ALLEGRO_THREAD *thr, void* arg){
                 a = 0;
             }
         }
-        receivedJson = escuchar(port, serverIp);
+        receivedJson = escuchar(port, clientIp);
         a = 1;
 
     }

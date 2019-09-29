@@ -7,10 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a52b8eec-199b-4107-9efb-3ec7d61c321e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/server_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/socket/Socket.c" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/socket/Socket.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/ui/gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/ui/gui.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../client/src/ui/gui.h" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/ui/gui.h" afterDir="false" />
     </list>
@@ -60,9 +61,7 @@
       <module name="server" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="server:jar" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -103,7 +102,7 @@
       <workItem from="1569603543119" duration="469000" />
       <workItem from="1569629127990" duration="7372000" />
       <workItem from="1569673426847" duration="282000" />
-      <workItem from="1569712794924" duration="2136000" />
+      <workItem from="1569712794924" duration="2900000" />
     </task>
     <servers />
   </component>
