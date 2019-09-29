@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a52b8eec-199b-4107-9efb-3ec7d61c321e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/server_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/ui/gui.c" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/ui/gui.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client/src/ui/gui.h" beforeDir="false" afterPath="$PROJECT_DIR$/../client/src/ui/gui.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,15 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BUILD_JAR" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ui.Main" />
-      <module name="server" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ui.Main" />
       <module name="server" />
@@ -77,10 +63,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.BUILD_JAR" />
-      <item itemvalue="Application.Main" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -102,7 +84,7 @@
       <workItem from="1569603543119" duration="469000" />
       <workItem from="1569629127990" duration="7372000" />
       <workItem from="1569673426847" duration="282000" />
-      <workItem from="1569712794924" duration="2900000" />
+      <workItem from="1569712794924" duration="3058000" />
     </task>
     <servers />
   </component>
